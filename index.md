@@ -9,3 +9,5 @@ La herramienta EasyMariaDB, es una herramienta diseñada para facilitar la creac
 ## ¿Dónde puedeo descargar EasyMariaDB?
 
 La puedes descargar en [esta dirección](https://github.com/EasyMariaDB/Basic/blob/Extension/Extensiones/EasyDB/EasyDB.zip)
+
+O en las páginas de [liberación](https://github.com/EasyMariaDB/Basic/releases)
