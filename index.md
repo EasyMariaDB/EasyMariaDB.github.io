@@ -19,7 +19,7 @@ La herramienta EasyMariaDB, es una extensión de LibreOffice diseñada para faci
 
 ## ¿Dónde puedeo descargar EasyMariaDB?
 
-La puedes descargar en [esta dirección](https://github.com/EasyMariaDB/Basic/releases)
+La puedes descargar en [esta dirección](https://github.com/jucasaca/Extension)
 
 # Ayuda de EasyMariaDB
 
