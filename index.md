@@ -6,7 +6,7 @@
   - [Requisitios previos](#requisitos-previos)
 
 # Introducción
-Al poco tiempo de comenzar a utilizar LibreOffice Base, descubrí que la base de datos HSQLDB incorporada, con el tiempo, daba errores debido a la corrupción del archivo .odb. Para evitarlo, en varias páginas web recomendaban hacer una base de datos separada.
+Al poco tiempo de comenzar a utilizar LibreOffice Base, descubrí que la base de datos HSQLDB incorporada, con el uso, daba errores debido a la corrupción del archivo .odb. Para evitarlo, en varias páginas web recomendaban hacer una base de datos separada.
 
 Para solucionar los problemas de corrupción de las bases de datos HSQLDB, en LibreOffice comenzaron a incorporar la base de datos Firebird, pero, de momento, la integración de esta base de datos no es completa y produce errores.
 
@@ -14,11 +14,11 @@ Más tarde, también descubrí que estas bases de datos incorporadas son monousu
 
 ¡No hay problema!, me dije, LibreOffice Base tiene infinitas posibilidades de conexión a servidores de bases de datos fiables y altamente probados. 
 
-No tuve muchos problemas para instalar diferentes servidores de bases de datos en mi equipo para probar cuál me sería más útil. Enseguida me di cuenta de que, aunque la instalación y la conexión a los servidores había sido relativamente fácil, si quería crear una base de datos necesitaba crearla desde un programa de línea de comandos, en el que además tenía que escribir sentencias SQL, que en ese momento desconocía. Para rematar, además, las sentencias SQL no eran exactamente las mismas para unos servidores que para otros, unos con comillas dobles, otros sencillas... Al final me desanimé y deje de utilizar Base.
+No tuve muchos problemas para instalar diferentes servidores de bases de datos en mi equipo para probar cuál me sería más útil. Enseguida me di cuenta de que, aunque la instalación y la conexión a los servidores había sido relativamente fácil, si quería crear una base de datos necesitaba crearla desde un programa de línea de comandos, en el que además tenía que escribir sentencias SQL, que en ese momento desconocía. Para rematar, además, las sentencias SQL no eran exactamente las mismas para unos servidores que para otros, unos con comillas dobles, otros con sencillas... Al final me desanimé y deje de utilizar Base.
 
 Hace poco, en un canal de Telegram, volvía a oír la pregunta de siempre ¿Base es fiable? ¿Es multiusuario? Y la respuesta (errónea) fue no a las dos preguntas. Digo que la respuesta es errónea porque la fiabilidad y la capacidad multiusuario no las proporciona Base, sino el servidor de bases de datos al que se conecte, bien sea un servidor incorporado o uno externo.
 
-Así que tomé la decisión de intentar demostrar que Base puede ser fiable y multiusuario y mi reto es que, además, la puesta en marcha de un servidor de base de datos sea más o menos fácil y la pueda realizar cualquier usuario sin necesidad de tener conocimientos avanzados.
+Así que tomé la decisión de intentar demostrar que Base puede ser fiable y multiusuario y mi reto es que, además, la puesta en marcha de un servidor de base de datos sea más o menos fácil y la pueda realizar cualquier usuario sin necesidad de tener conocimientos avanzados. Por esta razón creé EasyMariaDB. 
 
 # ¿Qué es EasyMariaDB?
 
