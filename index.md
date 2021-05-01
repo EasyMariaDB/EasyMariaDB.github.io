@@ -27,7 +27,7 @@ La herramienta **EasyMariaDB**, es una extensión de LibreOffice diseñada para 
 
 Ha sido diseñada para utilizarse con un servidor MariaDB o con un servidor MySQL. Ambos servidores son rápidos, fiables y seguros y tienen al menos una versión que es software libre y puede ser descargada e instalada libremente. Además LibreOffice Base tiene incorporado un conector nativo que facilita mucho la conexión a cualquiera de los dos servidores.
 
-Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremos, como era nuestro objetivo, bases de datos fiables, seguras y multiusuario, y junto con la extensión EsayMariaDB, fácil de poner en funcionamiento.
+Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremos, como era nuestro objetivo, bases de datos fiables, seguras y multiusuario, y junto con la extensión **EsayMariaDB**, fácil de poner en funcionamiento.
 
 ## ¿Dónde puedo descargar EasyMariaDB?
 
@@ -40,7 +40,7 @@ La puedes descargar en [esta dirección](https://github.com/jucasaca/Extension)
 Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 
 - Tener instalada una versión reciente de LibreOffice. [Descarga de LibreOffice](https://es.libreoffice.org/descarga/libreoffice/)
-- Tener instalada la extensión EasyMariaDB.oxt.
+- Tener instalada la extensión **EasyMariaDB.oxt**.
 - Tener instalado un servidor de bases de datos [MariaDB](InstalarMariaDB.md) o [MySQL](InstalarMySQL.md) y tener acceso al mismo.
 - Conocer nombre de usuario y contraseña de un usuario administrador del servidor, es decir que tenga al menos permisos para la creación de bases de datos y de usuarios.
 - Si los únicos datos de usuario administrador que conocemos son los del usuario root, en general, necesitamos tener acceso al mismo equipo en que está instalado el servidor (el usuario root no suele tener permiso de acceso remoto).
