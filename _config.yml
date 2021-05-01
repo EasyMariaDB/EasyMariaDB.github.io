@@ -10,3 +10,5 @@ relative_links:
 include:
   - index.md
   - prueba.md
+  - InstalarMariaDB.md
+  - InstalarMySQM.md
