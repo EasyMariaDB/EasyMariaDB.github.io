@@ -1,3 +1,7 @@
+# ïndice
+[Introducción](#introduccion)
+[¿Qué es EasyMariaDB](qué-es-easymariadb)
+
 # Introducción
 Al poco tiempo de comenzar a utilizar LibreOffice Base, descubrí que la base de datos HSQLDB incorporada, con el tiempo, daba errores debido a la corrupción del archivo .odb. Para evitarlo, en varias páginas web recomendaban hacer una base de datos separada.
 
