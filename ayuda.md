@@ -26,17 +26,14 @@ Para crear una base de datos seleccione el menú Herramientas > EasyMariaDB > Nu
 
 ![Jekyll](/img/database1.png)
 
-En el primer paso del diálogo, nos piden los datos de conexión al servidor de base de datos. En *Servidor* escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos; si se está conectando desde el mismo equipo en que está instalada el servidor de base de datos, puede dejar *localhost*. A continuación escriba el *Puerto* de conexión a la base de datos. Si no lo sabe escriba *3306* que es el puerto por defecto. En *Usuario* debe escribir el nombre de un usuario administrador (con permisos para crear bases de datos). En *Contraseña* escriba la contrseña del usuario administrador. Una vez rellenados todos los datos, pulse *Siguiente*.
+En el primer paso de este diálogo, nos piden los datos de conexión al servidor de base de datos. En *Servidor* escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos; si se está conectando desde el mismo equipo en que está instalada el servidor de base de datos, puede dejar *localhost*. A continuación escriba el *Puerto* de conexión a la base de datos. Si no lo sabe escriba *3306*, que es el puerto por defecto. En *Usuario* debe escribir el nombre de un usuario administrador (con permisos para crear bases de datos). En *Contraseña* escriba la contrseña del usuario administrador. Una vez rellenados todos los datos, pulse *Siguiente*.
 
-Aparecerá un nuevo diálogo.
+Aparecerá el segundo paso del diálogo.
 
 ![Jekyll](/img/database1.png)
 
 En *Base de datos* escriba el nombre para la base de datos nueva. Los nombres de la base de datos pueden incluir espacios y varios signos, pero se recomienda que solo se empleen letras y números, sin espacios ni otros símbolos especiales (incluidas letras con acentos). se empleen espácios ni oAunque escriba el nombre con mayúsculas o una combinación de mayúsculas y minúsculas, el nombre se guardará siempre en minúsculas.
 
-Rellene 
-
-En el segundo paso
 
 ![Jekyll](/img/database2.png)
 
