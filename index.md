@@ -30,4 +30,4 @@ Ha sido diseñada para utilizarse con un servidor MariaDB o con un servidor MySQ
 
 Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremos, como era nuestro objetivo, bases de datos fiables, seguras y multiusuario, y junto con la extensión **EsayMariaDB**, fácil de poner en funcionamiento.
 
-|[<Introducción](index.md#introducción) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB>](ayuda.md) |
+|[<Introducción](index.md#introducción) | [Índice](index.md#índice) | [Entender la arquitectura cliente servidor>](clienteservidor.md) |
