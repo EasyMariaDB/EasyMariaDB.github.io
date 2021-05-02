@@ -4,7 +4,7 @@
 
 Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 
-- Tener instalada una versión reciente de LibreOffice. [Descarga de LibreOffice](https://es.libreoffice.org/descarga/libreoffice/)
+- Tener instalada una versión reciente de LibreOffice. [[Descarga de LibreOffice]](https://es.libreoffice.org/descarga/libreoffice/)
 - Tener instalada la extensión **EasyMariaDB**. [Descarga EasyMariaDB.oxt]()
 - Tener instalado un servidor de bases de datos MaiaDB o MySQL y tener acceso al mismo. [Instalar MariaDB](InstalarMariaDB.md) o [Instalar MySQL](InstalarMySQL.md)
 - Conocer el nombre de usuario y la contraseña de un usuario administrador del servidor, es decir que tenga al menos permisos para la creación de bases de datos y de usuarios.
