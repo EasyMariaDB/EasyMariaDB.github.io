@@ -1,10 +1,9 @@
 # Índice
 - [Introducción](https://#introducción)
 - [¿Qué es EasyMariaDB](#qué-es-easymariadb)
-  - [¿Dóde puedo descargar EasyMariaDB](#dónde-puedo-descargar-easymariadb)
+- [Entender la arquitectura cliente servidor](clienteservidor.md)
 - [Ayuda de EasyMariaDB](#ayuda-de-easymariadb)
   - [Requisitios previos](#requisitos-previos)
-- [Entender la arquitectura cliente servidor](
 
 # Introducción
 Al poco tiempo de comenzar a utilizar LibreOffice Base, descubrí que la base de datos HSQLDB incorporada, con el uso, daba errores debido a la corrupción del archivo .odb. Para evitarlo, en varias páginas web recomendaban hacer una base de datos separada.
@@ -30,4 +29,4 @@ Ha sido diseñada para utilizarse con un servidor MariaDB o con un servidor MySQ
 
 Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremos, como era nuestro objetivo, bases de datos fiables, seguras y multiusuario, y junto con la extensión **EsayMariaDB**, fácil de poner en funcionamiento.
 
-|[<Introducción](index.md#introducción) | [Índice](index.md#índice) | [Entender la arquitectura cliente servidor>](clienteservidor.md) |
+|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Entender la arquitectura cliente servidor >](clienteservidor.md) |
