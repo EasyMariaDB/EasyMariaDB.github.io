@@ -4,6 +4,7 @@
   - [¿Dóde puedo descargar EasyMariaDB](#dónde-puedo-descargar-easymariadb)
 - [Ayuda de EasyMariaDB](#ayuda-de-easymariadb)
   - [Requisitios previos](#requisitos-previos)
+- [Entender la arquitectura cliente servidor](
 
 # Introducción
 Al poco tiempo de comenzar a utilizar LibreOffice Base, descubrí que la base de datos HSQLDB incorporada, con el uso, daba errores debido a la corrupción del archivo .odb. Para evitarlo, en varias páginas web recomendaban hacer una base de datos separada.
@@ -18,7 +19,7 @@ No tuve muchos problemas para instalar diferentes servidores de bases de datos e
 
 Hace poco, en un canal de Telegram, volví a ver la pregunta de siempre ¿Base es fiable? ¿Es multiusuario? Y la respuesta (errónea) fue no a las dos preguntas. Digo que la respuesta es errónea porque la fiabilidad y la capacidad multiusuario no las proporciona Base, sino el servidor de bases de datos al que se conecte, bien sea un servidor incorporado o uno externo.
 
-Así que tomé la decisión de intentar demostrar que Base puede ser fiable y multiusuario y mi reto es que, además, la puesta en marcha de un servidor de base de datos sea más o menos fácil y la pueda realizar cualquier usuario sin necesidad de tener conocimientos avanzados. Por esta razón creé **EasyMariaDB**.
+Así que tomé la decisión de intentar demostrar que Base puede ser fiable y multiusuario y mi reto es que, además, la puesta en marcha de un servidor de base de datos sea fácil y la pueda realizar cualquier usuario sin necesidad de tener conocimientos avanzados. Por esta razón creé **EasyMariaDB**.
 
 
 # ¿Qué es EasyMariaDB?
@@ -29,7 +30,7 @@ Ha sido diseñada para utilizarse con un servidor MariaDB o con un servidor MySQ
 
 Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremos, como era nuestro objetivo, bases de datos fiables, seguras y multiusuario, y junto con la extensión **EsayMariaDB**, fácil de poner en funcionamiento.
 
-## ¿Dónde puedo descargar EasyMariaDB?
+## ¿Dónde puedo descargar EasyMariaDB? [Índice](#índice)
 
 La puedes descargar en [esta dirección](https://github.com/jucasaca/Extension)
 
