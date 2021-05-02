@@ -32,12 +32,13 @@ Aparecerá el segundo paso del diálogo.
 
 ![Jekyll](/img/database2.png)
 
-En *Base de datos* escriba el nombre para la base de datos nueva. Los nombres de la base de datos pueden incluir espacios y varios signos, pero se recomienda que solo se empleen letras y números, sin espacios ni otros símbolos especiales (incluidas letras con acentos). Aunque escriba el nombre con mayúsculas o una combinación de mayúsculas y minúsculas, el nombre se guardará siempre en minúsculas.
+En *Base de datos* escriba el nombre para la base de datos nueva. Los nombres de la base de datos pueden incluir espacios y varios signos, pero se recomienda que solo se empleen letras y números, sin espacios ni otros símbolos especiales (incluidas letras con acentos). Aunque escriba el nombre con mayúsculas o una combinación de mayúsculas y minúsculas, el nombre se guardará siempre en minúsculas. Pulse *Aceptar* cuando haya terminado.
 
-
-
+Se creará la base de datos y mostrará el siguiente mensaje de confirmación.
 
 ![Jekyll](/img/database3.png)
+
+Si el nombre elegido ya existe en el servidor, se mostrará el siguiente mensaje de error.
 
 ![Jekyll](/img/database4.png)
 
