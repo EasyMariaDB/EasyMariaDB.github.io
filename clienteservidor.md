@@ -38,6 +38,8 @@ En este caso, al compartir el mismo archivo, los usuarios compartiran los mismos
 
 El hecho de que el archivo sea de solo lectura, supone que el usuario no podrá modificar el archivo .odb, y por tanto no podrá modificar ni los informes, ni los formularios, ni las consultas, pero sí que podrá modificar los datos puesto que estos residen en el servidor y no en el archivo .odb.
 
-### Cada usuario tiene su propio archivo .mdb de Base
+### Cada usuario tiene su propio archivo .odb de Base
 
+Si el usuario posee su propio archivo .odb, es libre de crear y modificar sus propios formularios, informes y consultas. Esta forma de acceder a los datos es conveniente cuando cada usuario tiene unas necesidades diferentes, por ejemplo un ususario de la oficina de personal puede crear sus propios elementos para el acceso a las tablas de empleados, salarios y nóminas, etc, mientras que el encargado de contabilidad puede crear los suyos para acceso a facturación, cuentas bancarias, etc.
 
+Este sistema proporciona más flexibilidad, pero también más trabajo para preparar formularios y demás.
