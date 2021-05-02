@@ -12,3 +12,4 @@ include:
   - prueba.md
   - InstalarMariaDB.md
   - InstalarMySQM.md
+  - clienteservidor.md
