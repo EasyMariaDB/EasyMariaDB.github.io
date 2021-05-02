@@ -32,7 +32,7 @@ Aparecerá el segundo paso del diálogo.
 
 ![Jekyll](/img/database2.png)
 
-En *Base de datos* escriba el nombre para la base de datos nueva. Los nombres de la base de datos pueden incluir espacios y varios signos, pero se recomienda que solo se empleen letras y números, sin espacios ni otros símbolos especiales (incluidas letras con acentos). se empleen espácios ni oAunque escriba el nombre con mayúsculas o una combinación de mayúsculas y minúsculas, el nombre se guardará siempre en minúsculas.
+En *Base de datos* escriba el nombre para la base de datos nueva. Los nombres de la base de datos pueden incluir espacios y varios signos, pero se recomienda que solo se empleen letras y números, sin espacios ni otros símbolos especiales (incluidas letras con acentos). Aunque escriba el nombre con mayúsculas o una combinación de mayúsculas y minúsculas, el nombre se guardará siempre en minúsculas.
 
 
 
