@@ -44,4 +44,4 @@ Si el usuario posee su propio archivo .odb, es libre de crear y modificar sus pr
 
 Este sistema proporciona más flexibilidad, pero también más trabajo para preparar formularios y demás elementos.
 
-|[<Introducción](index.md#introducción) | [Índice](index.md#índice) | [>Ayuda de EasyMariaDB>](ayuda.md)  |
+|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB >](ayuda.md) |
