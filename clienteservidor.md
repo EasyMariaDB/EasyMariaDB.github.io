@@ -34,7 +34,7 @@ Anteriormente he dicho que en el lado cliente podemos tener uno o varios archivo
 
 Si queremos que varios o todos los usuarios utilicen el mismo archivo, este debe estar en una ubicación de la red a la que puedan acceder los usuarios que lo necesiten.
 
-En este caso, al compartir el mismo archivo, todos los usuarios compartiran los mismos formularios, informes y consultas, pero solamente el primer usuario que abra el archivo podrá modificar dichos elementos. Esto no debería ser un problema puesto que una vez creados los formularios, consultas e informes que se necesiten, normalmente no será necesario modificarlos. De hecho, mi recomendación en este caso es que, una vez creados todos los elementos necesarios, el archivo se configure como de solo lectura para todos los usuarios. 
+En este caso, al compartir el mismo archivo, los usuarios compartiran los mismos formularios, informes y consultas, pero solamente el primer usuario que acceda el archivo podrá modificar dichos elementos. Esto no debería ser un problema puesto que una vez creados los formularios, consultas e informes que se necesiten, normalmente no será necesario modificarlos. De hecho, mi recomendación en este caso es que, una vez creados todos los elementos necesarios, el archivo se configure como de solo lectura para todos los usuarios. 
 
 El hecho de que el archivo sea de solo lectura, supone que el usuario no podrá modificar el archivo .odb, y por tanto no podrá modificar ni los informes, ni los formularios, ni las consultas, pero sí que podrá modificar los datos puesto que estos residen en el servidor y no en el archivo .odb.
 
