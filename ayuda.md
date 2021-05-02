@@ -19,3 +19,6 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - Asignar o modificar la contraseña de un usuario
 - Asignar permisos a un usuario
 - Cambiar la contraseña propia
+
+
+|[< Entender la arquitectura cliente servidor](clienteservidor) | [Índice](index.md#índice) | [ >](ayuda.md) |
