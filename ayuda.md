@@ -24,7 +24,7 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 
 Para crear una base de datos seleccione el menú Herramientas > EasyMariaDB > Nueva base de datos, aparecerá un diálogo.
 
-En el primer paso del diálogo, nos piden los datos de conexión al servidor de base de datos. En *Servidor* escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos; si se está conectando desde el mismo en que está instalada el servidor de base de datos, puede dejar *localhost*. A continuación escriba el *Puerto* de conexión a la base de datos. Si no lo sabe escriba *3306* que es el puerto por defecto. En *Usuario* debe escribir el nombre de un usuario administrador (con permisos para crear bases de datos). En *Contraseña* escriba la contrseña del usuario administrador. Una vez rellenados todos los datos, pulse *Siguiente*.
+En el primer paso del diálogo, nos piden los datos de conexión al servidor de base de datos. En *Servidor* escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos; si se está conectando desde el mismo equipo en que está instalada el servidor de base de datos, puede dejar *localhost*. A continuación escriba el *Puerto* de conexión a la base de datos. Si no lo sabe escriba *3306* que es el puerto por defecto. En *Usuario* debe escribir el nombre de un usuario administrador (con permisos para crear bases de datos). En *Contraseña* escriba la contrseña del usuario administrador. Una vez rellenados todos los datos, pulse *Siguiente*.
 
 ![Jekyll](/img/database1.png)
 
