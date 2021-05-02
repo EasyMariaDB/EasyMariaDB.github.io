@@ -43,3 +43,5 @@ El hecho de que el archivo sea de solo lectura, supone que el usuario no podrá 
 Si el usuario posee su propio archivo .odb, es libre de crear y modificar sus propios formularios, informes y consultas. Esta forma de acceder a los datos es conveniente cuando cada usuario tiene unas necesidades diferentes, por ejemplo un usuario de la oficina de personal puede crear sus propios elementos para el acceso a las tablas de empleados, salarios y nóminas, etc, mientras que el encargado de contabilidad puede crear los suyos para acceso a facturación, cuentas bancarias, etc.
 
 Este sistema proporciona más flexibilidad, pero también más trabajo para preparar formularios y demás elementos.
+
+[<Introducción](index.md#introducción) [Ïndice](index.md#índice)  
