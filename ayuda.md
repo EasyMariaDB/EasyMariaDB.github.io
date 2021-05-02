@@ -21,4 +21,5 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - Cambiar la contraseña propia
 
 
+
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
