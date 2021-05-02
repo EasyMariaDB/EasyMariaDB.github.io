@@ -20,6 +20,11 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - Asignar permisos a un usuario
 - Cambiar la contraseña propia
 
-![Jekyll](/img/jc.png)
+![Jekyll](/img/database1.png)
+![Jekyll](/img/database2.png)
+
+![Jekyll](/img/database3.png)
+
+![Jekyll](/img/database4.png)
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
