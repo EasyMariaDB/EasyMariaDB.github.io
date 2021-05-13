@@ -36,13 +36,8 @@ Los datos que tenemos que proporcionar en este diálogo son:
 Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
 Aparecerá el diálogo *Nueva base de datos*. Rellene los datos de conexión como se explicó en el punto anterior.
-Haga clic en el botón *Siguiente*
 
-![Jekyll](/img/database1.png)
-
-En el primer paso de este diálogo, nos piden los datos de conexión al servidor de base de datos. En *Servidor* escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos; si se está conectando desde el mismo equipo en que está instalada el servidor de base de datos, puede dejar *localhost*. A continuación escriba el *Puerto* de conexión a la base de datos. Si no lo sabe escriba *3306*, que es el puerto por defecto. En *Usuario* debe escribir el nombre de un usuario administrador (con permisos para crear bases de datos). En *Contraseña* escriba la contrseña del usuario administrador. Una vez rellenados todos los datos, pulse *Siguiente*.
-
-Aparecerá el segundo paso del diálogo.
+Haga clic en el botón *Siguiente*. Aparecerá el segundo paso del diálogo. Rellene el cuadro de texto *Base de datos* con el nombre de la base de datos que se creará. Aunque se puede poner cualquier nombre, se recomienda no emplear espacios, acentos ni otros signos especiales (como, por ejemplo, la letra *ñ*); también se recomienda que el nombre no sea muy largo. No importa si escribe el nombre en mayúsculas o minúsculas, en el servidor siempre se guardará en minúsculas.
 
 ![Jekyll](/img/database2.png)
 
