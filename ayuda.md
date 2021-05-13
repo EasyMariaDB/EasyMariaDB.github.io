@@ -20,20 +20,23 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - Asignar permisos a un usuario
 - Cambiar la contraseña propia
 
-### Diálogo común
-Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primr paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión a MariaDB/MySQL.
+### Diálogo Datos de conexión
+Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión a MariaDB/MySQL.
 
 ![Jekyll](/img/database1.png)
 
 Los datos que tenemos que proporcionar en este diálogo son:
 - **Servidor**: escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos. Si está accediendo desde el mismo equipo en el que está instalado el servidor de bases de datos, puede escribir *localhost*
-- **Puerto**: es el puerto a través del cual se realiza la conexi al servidor de bases de datos en el equipo en que está instalado. El puerto por defecto es *3306*
+- **Puerto**: es el puerto a través del cual se realiza la conexión al servidor de bases de datos en el equipo en que está instalado. El puerto por defecto es *3306*
 - **Usuario**: el nombre de un usuario que tenga permisos para acceder al servidor de bases de datos y que también tenga permisos para realizar la tarea a ejecutar, por ejemplo, si se va a crear una base de datos, el usuario deberá tener permisos de creación de bases de datos.
 - **Contraseña**: la contraseña del usuario anterior.
 
 ### Crear una base de datos
 
-Para crear una base de datos seleccione el menú Herramientas > EasyMariaDB > Nueva base de datos, aparecerá el diálogo que se muestra a continuación.
+Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+
+Aparecerá el diálogo *Nueva base de datos*. Rellene los datos de conexión como se explicó en el punto anterior.
+Haga clic en el botón *Siguiente*
 
 ![Jekyll](/img/database1.png)
 
