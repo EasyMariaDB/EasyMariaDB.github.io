@@ -22,7 +22,7 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - Cambiar la contraseña propia
 
 ### Datos de conexión
-Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión a MariaDB/MySQL.
+Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
 
 ![Jekyll](/img/database1.png)
 
@@ -66,11 +66,11 @@ Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
 
 ![Jekyll](/img/NuevoUsuario.png)
 
-Rellene los datos del siálogo como sigue:
+Rellene los datos del diálogo como sigue:
 - **Usuario**: escriba el nombre del usuario que se va a crear.
 - **Contraseña**: escriba una contraseña para el usuario.
-- **Base de datos**: escriba el nombre de la base de datos en la que tendrá permisos el usuario.
-- **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente.
+- **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario.
+- **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente. En Gestión de permisos se explican los privilegios de cada una de  las distintas posibilidades.
 
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
