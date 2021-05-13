@@ -36,7 +36,7 @@ Los datos que tenemos que proporcionar en este diálogo son:
 
 Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
-Aparecerá el diálogo *Nueva base de datos*. Rellene los datos de conexión como se explicó en el punto anterior.
+Aparecerá el diálogo *Nueva base de datos*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
 
 Haga clic en el botón *Siguiente*. Aparecerá el segundo paso del diálogo. Rellene el cuadro de texto *Base de datos* con el nombre de la base de datos que se creará. 
 
