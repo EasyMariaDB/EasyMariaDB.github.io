@@ -58,6 +58,9 @@ Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 
 ### Nuevo usuario
 
+Para crear un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Nuevo usuario**, o haga  clic sobre el botón *Nuevo usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+
+Aparecerá el diálogo *Nuevo usuario*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
 
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
