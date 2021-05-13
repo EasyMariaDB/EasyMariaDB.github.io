@@ -37,18 +37,24 @@ Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > 
 
 Aparecerá el diálogo *Nueva base de datos*. Rellene los datos de conexión como se explicó en el punto anterior.
 
-Haga clic en el botón *Siguiente*. Aparecerá el segundo paso del diálogo. Rellene el cuadro de texto *Base de datos* con el nombre de la base de datos que se creará. Aunque se puede poner cualquier nombre, se recomienda no emplear espacios, acentos ni otros signos especiales (como, por ejemplo, la letra *ñ*); también se recomienda que el nombre no sea muy largo. No importa si escribe el nombre en mayúsculas o minúsculas, en el servidor siempre se guardará en minúsculas.
+Haga clic en el botón *Siguiente*. Aparecerá el segundo paso del diálogo. Rellene el cuadro de texto *Base de datos* con el nombre de la base de datos que se creará. 
+
+Aunque se puede poner cualquier nombre, se recomienda no emplear espacios, acentos ni otros signos especiales (como, por ejemplo, la letra *ñ*); también se recomienda que el nombre no sea muy largo. 
+
+No importa si escribe el nombre en mayúsculas o minúsculas, en el servidor siempre se guardará en minúsculas.
 
 ![Jekyll](/img/database2.png)
 
-En *Base de datos* escriba el nombre para la base de datos nueva. Los nombres de la base de datos pueden incluir espacios y varios signos, pero se recomienda que solo se empleen letras y números, sin espacios ni otros símbolos especiales (incluidas letras con acentos). Aunque escriba el nombre con mayúsculas o una combinación de mayúsculas y minúsculas, el nombre se guardará siempre en minúsculas. Pulse *Aceptar* cuando haya terminado.
+Una vez haya rellenado el nombre, haga clic en *Aceptar*. 
 
-Se creará la base de datos y mostrará el siguiente mensaje de confirmación.
+Si todo va bien, se creará la base de datos y mostrará el siguiente mensaje de confirmación.
 
 ![Jekyll](/img/database3.png)
 
 Si el nombre elegido ya existe en el servidor, se mostrará el siguiente mensaje de error.
 
 ![Jekyll](/img/database4.png)
+
+
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
