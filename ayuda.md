@@ -26,7 +26,7 @@ Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia
 
 ![Jekyll](/img/database1.png)
 
-Los datos que tenemos que proporcionar en este diálogo son:
+Los datos que se tienen que proporcionar en este diálogo son:
 - **Servidor**: escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos. Si está accediendo desde el mismo equipo en el que está instalado el servidor de bases de datos, puede escribir *localhost*
 - **Puerto**: es el puerto a través del cual se realiza la conexión al servidor de bases de datos en el equipo en que está instalado. El puerto por defecto es *3306*
 - **Usuario**: el nombre de un usuario que tenga permisos para acceder al servidor de bases de datos y que también tenga permisos para realizar la tarea a ejecutar, por ejemplo, si se va a crear una base de datos, el usuario deberá tener permisos de creación de bases de datos.
@@ -61,6 +61,16 @@ Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 Para crear un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Nuevo usuario**, o haga  clic sobre el botón *Nuevo usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
 Aparecerá el diálogo *Nuevo usuario*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+
+Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
+
+![Jekyll](/img/NuevoUsuario.png)
+
+Rellene los datos del siálogo como sigue:
+- **Usuario**: escriba el nombre del usuario que se va a crear.
+- **Contraseña**: escriba una contraseña para el usuario.
+- **Base de datos**: escriba el nombre de la base de datos en la que tendrá permisos el usuario.
+- **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente.
 
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
