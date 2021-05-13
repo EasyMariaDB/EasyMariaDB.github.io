@@ -69,8 +69,9 @@ Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
 Rellene los datos del diálogo como sigue:
 - **Usuario**: escriba el nombre del usuario que se va a crear.
 - **Contraseña**: escriba una contraseña para el usuario.
-- **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario.
+- **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario. Si va a crear un usuario administrador, no seleccione ninguna base de datos.
 - **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente. En Gestión de permisos se explican los privilegios de cada una de  las distintas posibilidades.
 
+### Eliminar usuario
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
