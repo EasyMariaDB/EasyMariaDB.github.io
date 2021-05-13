@@ -26,10 +26,10 @@ Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia
 ![Jekyll](/img/database1.png)
 
 Los datos que tenemos que proporcionar en este diálogo son:
-- Servidor
-- Puerto
-- Usuario
-- Contraseña
+- **Servidor**: escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos. Si está accediendo desde el mismo equipo en el que está instalado el servidor de bases de datos, puede escribir *localhost*
+- **Puerto**: es el puerto a través del cual se realiza la conexi al servidor de bases de datos en el equipo en que está instalado. El puerto por defecto es *3306*
+- **Usuario**: el nombre de un usuario que tenga permisos para acceder al servidor de bases de datos y que también tenga permisos para realizar la tarea a ejecutar, por ejemplo, si se va a crear una base de datos, el usuario deberá tener permisos de creación de bases de datos.
+- **Contraseña**: la contraseña del usuario anterior.
 
 ### Crear una base de datos
 
