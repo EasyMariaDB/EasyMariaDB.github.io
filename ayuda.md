@@ -17,7 +17,7 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - Crear una base de datos
 - Crear un usuario
 - Eliminar un usuario
-- Asignar o modificar la contraseña de un usuario
+- Cambiar la contraseña de un usuario (por un administrador)
 - Asignar permisos a un usuario
 - Cambiar la contraseña propia
 
@@ -94,6 +94,26 @@ Haga clic en *Sí* en este nuevo diálogo para eliminar definitivamente al usuar
 
 Haga clic en *Aceptar* para cerrar el diálogo.
 
-### Modificar la contraseña de un usuario
+### Cambiar la contraseña de un usuario (por un administrador)
+
+Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña a un usuario**, o haga  clic sobre el botón *Cambiar contraseña a un usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+
+Aparecerá el diálogo *Cambiar contraseña*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+
+Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
+
+![Jekyll](/img/EliminarUsuario.png)
+
+Rellene los datos del diálogo como sigue:
+- **Usuario**: seleccione el nombre del usuario al que se va a modificar la contraseña.
+- **Contraseña**: escriba una contraseña para el usuario.
+- **Repita contraseña**: vuelva a escribir la contraseña para el usuario.
+
+Se mostrara un mensaje confirmando el cambio de contraseña.
+
+![Jekyll](/img/EliminarUsuario.png)
+
+Haga clic en *Aceptar* para cerrar el diálogo
+
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
