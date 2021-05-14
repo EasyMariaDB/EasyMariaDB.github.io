@@ -86,6 +86,9 @@ En el campo *Usuario*, seleccione el nombre del usuario a eliminar en la lista d
 
 Haga clic en *Aceptar*. Un nuevo diálogo pedirá confirmación.
 
-Haga clic en *Aceptar* en este nuevo diálogo para eliminar definitivamente al usuario.
+![Jekyll](/img/EliminarUsuarioConfirmacion.png)
 
+Haga clic en *Aceptar* en este nuevo diálogo para eliminar definitivamente al usuario. Se mostrará un mensaje confirmando la eliminación.
+
+![Jekyll](/img/UsuarioEliminado.png)
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
