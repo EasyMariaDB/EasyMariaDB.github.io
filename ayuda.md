@@ -88,7 +88,10 @@ Haga clic en *Aceptar*. Un nuevo diálogo pedirá confirmación.
 
 ![Jekyll](/img/EliminarUsuarioConfirmacion.png)
 
-Haga clic en *Aceptar* en este nuevo diálogo para eliminar definitivamente al usuario. Se mostrará un mensaje confirmando la eliminación.
+Haga clic en *Sí* en este nuevo diálogo para eliminar definitivamente al usuario. Se mostrará un mensaje confirmando la eliminación.
 
 ![Jekyll](/img/UsuarioEliminado.png)
+
+Haga clic en *Aceptar* para cerrar el diálogo.
+
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
