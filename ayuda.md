@@ -82,4 +82,8 @@ Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
 
 ![Jekyll](/img/EliminarUsuario.png)
 
+En el campo *Usuario*, seleccione el nombre del usuario a eliminar en la lista desplegable.
+
+Haga clic en *Aceptar*. Un nuevo diálogo pedirá confirmación.
+
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
