@@ -16,9 +16,9 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 
 - Crear una base de datos
 - Crear un usuario
+- Eliminar un usuario
 - Asignar o modificar la contraseña de un usuario
 - Asignar permisos a un usuario
-- Eliminar un usuario
 - Cambiar la contraseña propia
 
 ### Datos de conexión
@@ -93,5 +93,7 @@ Haga clic en *Sí* en este nuevo diálogo para eliminar definitivamente al usuar
 ![Jekyll](/img/UsuarioEliminado.png)
 
 Haga clic en *Aceptar* para cerrar el diálogo.
+
+### Modificar la contraseña de un usuario
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
