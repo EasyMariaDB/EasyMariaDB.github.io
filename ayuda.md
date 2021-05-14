@@ -74,4 +74,12 @@ Rellene los datos del diálogo como sigue:
 
 ### Eliminar usuario
 
+Para eliminar un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Eliminar usuario**, o haga  clic sobre el botón *Eliminar usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+
+Aparecerá el diálogo *Eliminar usuario*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+
+Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
+
+![Jekyll](/img/EliminarUsuario.png)
+
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
