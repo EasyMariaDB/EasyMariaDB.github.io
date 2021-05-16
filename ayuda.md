@@ -126,6 +126,7 @@ Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
 
 
 
+
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
 
 
