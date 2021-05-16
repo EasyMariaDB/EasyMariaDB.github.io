@@ -1,5 +1,5 @@
 # Ayuda de EasyMariaDB
-
+<!--
 ## Requisitos previos
 
 Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
@@ -23,7 +23,7 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 
 ### Datos de conexión
 Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
-<!--
+
 ![Jekyll](/img/database1.png)
 
 Los datos que se tienen que proporcionar en este diálogo son:
