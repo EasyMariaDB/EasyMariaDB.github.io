@@ -11,7 +11,7 @@ include:
   - index.md
   - ayuda.md
   - InstalarMariaDB.md
-  - InstalarMySQM.md
+  - InstalarMySQL.md
   - clienteservidor.md
   - prueba.md
   - /img/UsuarioEliminado.png
