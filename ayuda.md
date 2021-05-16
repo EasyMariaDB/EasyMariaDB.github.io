@@ -101,7 +101,7 @@ Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña a un usua
 Aparecerá el diálogo *Cambiar contraseña*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
 
 Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
-
+<!--
 ![Jekyll](/img/pass2.png)
 
 Rellene los datos del diálogo como sigue:
@@ -115,6 +115,6 @@ Se mostrara un mensaje confirmando el cambio de contraseña.
 
 Haga clic en *Aceptar* para cerrar el diálogo
 
-### Asignar permisos a un usuario
+### Asignar permisos a un usuario -->
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
