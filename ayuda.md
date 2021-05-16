@@ -102,7 +102,7 @@ Aparecerá el diálogo *Cambiar contraseña*. Rellene los datos de conexión com
 
 Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
 
-![Jekyll](/img/Pass2.png)
+![Jekyll](/img/pass2.png)
 
 Rellene los datos del diálogo como sigue:
 - **Usuario**: seleccione el nombre del usuario al que se va a modificar la contraseña.
