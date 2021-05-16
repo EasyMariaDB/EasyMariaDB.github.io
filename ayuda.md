@@ -117,6 +117,15 @@ Haga clic en *Aceptar* para cerrar el diálogo
 
 ### Asignar permisos a un usuario
 
+Seleccione el menú **Herramientas > EasyMariaDB > Permisos de usuario**, o haga  clic sobre el botón *Permisos de usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+
+Aparecerá el diálogo *Permisos de usuario*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+
+Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
+
+
+
+
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
 
 
