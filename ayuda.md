@@ -115,5 +115,6 @@ Se mostrara un mensaje confirmando el cambio de contraseña.
 
 Haga clic en *Aceptar* para cerrar el diálogo
 
+### Asignar permisos a un usuario
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
