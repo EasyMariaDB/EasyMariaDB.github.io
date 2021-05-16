@@ -9,7 +9,7 @@ relative_links:
   collections: true
 include:
   - index.md
-  - prueba.md
+  - ayuda.md
   - InstalarMariaDB.md
   - InstalarMySQM.md
   - clienteservidor.md
