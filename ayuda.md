@@ -1,5 +1,5 @@
 # Ayuda de EasyMariaDB
-<!--
+
 ## Requisitos previos
 
 Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
@@ -119,4 +119,4 @@ Haga clic en *Aceptar* para cerrar el diálogo
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
 
--->
+
