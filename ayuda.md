@@ -32,6 +32,8 @@ Los datos que se tienen que proporcionar en este diálogo son:
 - **Usuario**: el nombre de un usuario que tenga permisos para acceder al servidor de bases de datos y que también tenga permisos para realizar la tarea a ejecutar, por ejemplo, si se va a crear una base de datos, el usuario deberá tener permisos de creación de bases de datos.
 - **Contraseña**: la contraseña del usuario anterior.
 
+[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+
 ### Nueva base de datos
 
 Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
@@ -56,6 +58,8 @@ Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 
 ![Jekyll](/img/database4.png)
 
+[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+
 ### Nuevo usuario
 
 Para crear un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Nuevo usuario**, o haga  clic sobre el botón *Nuevo usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
@@ -71,6 +75,8 @@ Rellene los datos del diálogo como sigue:
 - **Contraseña**: escriba una contraseña para el usuario.
 - **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario. Si va a crear un usuario administrador, no seleccione ninguna base de datos.
 - **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente. En Gestión de permisos se explican los privilegios de cada una de  las distintas posibilidades.
+
+[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
 
 ### Eliminar usuario
 
@@ -94,6 +100,8 @@ Haga clic en *Sí* en este nuevo diálogo para eliminar definitivamente al usuar
 
 Haga clic en *Aceptar* para cerrar el diálogo.
 
+[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+
 ### Cambiar la contraseña de un usuario (por un administrador)
 
 Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña a un usuario**, o haga  clic sobre el botón *Cambiar contraseña a un usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
@@ -116,6 +124,8 @@ Se mostrara un mensaje confirmando el cambio de contraseña.
 ![Jekyll](/img/PassConfirmation.png)
 
 Haga clic en *Aceptar* para cerrar el diálogo
+
+[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
 
 ### Asignar permisos a un usuario
 
@@ -146,6 +156,8 @@ Los permisos que se pueden asignar son los siguientes:
 - **Lectura y escritura**. El usuario podrá leer los datos de la base de datos y también modificarlos, pero no podrá crear ni eliminar tablas o vistas.
 - **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizaro otras tareas más avanzadas, como crear funciones, disparadores, etc.
 - **Administrador**. Todos los permisos en todas las bases de datos y en el servidor. Son los mismos permisos que los del usuario root, añadiendo que puede iniciar sesión desde cualquier equipo de la red o incluso de iternet si la red tiene acceso externo. Estos permisos deberían asignarse con mucho cuidado y el usuario que los posea debe proteger cuidadosamente su contraseña. Si no se tienen problemas para acceder como usuario root desde el equipo local, es mejor no asignarlo.
+
+[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
 
 ### Cambiar la contraseña propia
 
@@ -180,6 +192,7 @@ Haga clic en *Aceptar* para cerrar el mensaje. Corrija el error para poder conti
 
 El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Recomendamos reiniciarlo inmediatamente para evitar posibles errores.
 
+[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
 
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
