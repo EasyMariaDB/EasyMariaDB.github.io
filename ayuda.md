@@ -123,8 +123,18 @@ Aparecerá el diálogo *Permisos de usuario*. Rellene los datos de conexión com
 
 Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
 
+![Jekyll](/img/Privileges2.png)
 
+Rellene los datos del diálogo como sigue:
+- **Usuario**: seleccione el nombre del usuario al que se van a asignar o modificar los permisos.
+- **Base de datos**: seleccione la base de datos para la que se otorgarán los permisos. Si los permisos que se van a asignar son de *Administrador*, no es necesario seleccionar ninguna base de datos
+- **Permisos**: seleccione los permisos que se otorgarán al usuario.
 
+Los permisos que se pueden asignar son los siguientes:
+- **Ninguno (eliminar)**. Se eliminarán todos los permisos que tenga el usuario en la base de datos seleccionada.
+- **Solo lectura**. El usuario podrá leer los datos de la base de datos, pero no podrá modificarlos.
+- **Lectura y escritura**. El usuario podrá leer los datos de la base de datos y también modificarlos, pero no podrá crear ni eliminar tablas o vistas.
+- **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizaro otras tareas más avanzadas, como crear funciones, disparadores, etc. Incluso podrá asignar permisos a otro usuario en la base de datos a la que pertenece.
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
 
