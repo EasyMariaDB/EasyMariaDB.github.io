@@ -134,13 +134,17 @@ Rellene los datos del diálogo como sigue:
 
 Una vez rellenados los datos, haga clic en *Aceptar* para confirmar el cambio de permisos.
 
-Se mostrará un nuevo mensaje confirmando el cambio de permisos. Haga clic en *Aceptar* para cerrar el mensaje.
+Se mostrará un nuevo mensaje confirmando el cambio de permisos.
+
+![Jekyll](/img/Privileges2.png)
+
+Haga clic en *Aceptar* para cerrar el mensaje.
 
 Los permisos que se pueden asignar son los siguientes:
 - **Ninguno (eliminar)**. Se eliminarán todos los permisos que tenga el usuario en la base de datos seleccionada.
 - **Solo lectura**. El usuario podrá leer los datos de la base de datos, pero no podrá modificarlos.
 - **Lectura y escritura**. El usuario podrá leer los datos de la base de datos y también modificarlos, pero no podrá crear ni eliminar tablas o vistas.
-- **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizaro otras tareas más avanzadas, como crear funciones, disparadores, etc. Incluso podrá asignar permisos a otro usuario en la base de datos a la que pertenece.
+- **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizaro otras tareas más avanzadas, como crear funciones, disparadores, etc.
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
 
