@@ -19,7 +19,7 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - [Eliminar un usuario](#eliminar-usuario)
 - Cambiar la contraseña de un usuario (por un administrador)
 - [Asignar permisos a un usuario](#asignar-permisos-a-un-usuario)
-- [Cambiar la contraseña propia](#cambiar-contraseña-propia)
+- [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
 
 ### Datos de conexión
 Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
