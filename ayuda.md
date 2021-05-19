@@ -145,6 +145,42 @@ Los permisos que se pueden asignar son los siguientes:
 - **Solo lectura**. El usuario podrá leer los datos de la base de datos, pero no podrá modificarlos.
 - **Lectura y escritura**. El usuario podrá leer los datos de la base de datos y también modificarlos, pero no podrá crear ni eliminar tablas o vistas.
 - **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizaro otras tareas más avanzadas, como crear funciones, disparadores, etc.
+- **Administrador**. Todos los permisos en todas las bases de datos y en el servidor. Son los mismos permisos que los del usuario root, añadiendo que puede iniciar sesión desde cualquier equipo de la red o incluso de iternet si la red tiene acceso externo. Estos permisos deberían asignarse con mucho cuidado y el usuario que los posea debe proteger cuidadosamente su contraseña. Si no se tienen problemas para acceder como usuario root desde el equipo local, es mejor no asignarlo.
+
+### Cambiar la contraseña propia
+
+Mientras que las demás opciones se puden ejecutar desde cualquier aplicación de LibreOffice, esta opción solo se puede ejecutar desde Base y además es requisito tener iniciada la sesión en la base de datos a la que pertenece el usuario.
+
+También esta es la única opción en la que el diálogo no tienen la ventana de conexión.
+
+Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña propia**, o haga  clic sobre el botón *Cambiar contraseña propia* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+
+Se mostrará la ventana de cambio de contraseña para el usuario actual.
+
+![Jekyll](/img/PassPropia1.png)
+
+Rellene los datos del diálogo como sigue:
+- **Contraseña actual**: escriba la contraseña que tiene actualmente el usuario.
+- **Nueva contraseña**: escriba la nueva contraseña.
+- **Repita contraseña**: vuelva a escribir la nueva contraseña.
+
+Una vez rellenados los datos haga clic en *Aceptar*.
+
+Si todo es correcto se mostrará un mensaje de confirmación.
+
+![Jekyll](/img/PassPropia2.png)
+
+Haga clic en *Aceptar* para cerrar el mensaje.
+
+Si hay algún error se mostrará un mensaje advirtiendo del error.
+
+![Jekyll](/img/PassPropia3.png)
+
+Haga clic en *Aceptar* para cerrar el mensaje. Corrija el error para poder continuar.
+
+El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Recomendamos reiniciarlo inmediatamente para evitar posibles errores.
+
+
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
 
