@@ -109,6 +109,8 @@ Rellene los datos del diálogo como sigue:
 - **Contraseña**: escriba una contraseña para el usuario.
 - **Repita contraseña**: vuelva a escribir la contraseña para el usuario.
 
+Una vez rellenados los datos, haga clic en *Aceptar* para cambiar la contraseña.
+
 Se mostrara un mensaje confirmando el cambio de contraseña.
 
 ![Jekyll](/img/PassConfirmation.png)
@@ -129,6 +131,10 @@ Rellene los datos del diálogo como sigue:
 - **Usuario**: seleccione el nombre del usuario al que se van a asignar o modificar los permisos.
 - **Base de datos**: seleccione la base de datos para la que se otorgarán los permisos. Si los permisos que se van a asignar son de *Administrador*, no es necesario seleccionar ninguna base de datos
 - **Permisos**: seleccione los permisos que se otorgarán al usuario.
+
+Una vez rellenados los datos, haga clic en *Aceptar* para confirmar el cambio de permisos.
+
+Se mostrará un nuevo mensaje confirmando el cambio de permisos. Haga clic en *Aceptar* para cerrar el mensaje.
 
 Los permisos que se pueden asignar son los siguientes:
 - **Ninguno (eliminar)**. Se eliminarán todos los permisos que tenga el usuario en la base de datos seleccionada.
