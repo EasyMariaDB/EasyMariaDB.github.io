@@ -1,17 +1,5 @@
 # Ayuda de EasyMariaDB
 
-## Requisitos previos
-
-Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
-
-- Tener instalada una versión reciente de LibreOffice. [[Descarga de LibreOffice]](https://es.libreoffice.org/descarga/libreoffice/)
-- Tener instalada la extensión **EasyMariaDB**. [[Descarga de la extensión EasyMariaDB.oxt]](https://github.com/jucasaca/Extension/releases)
-- Tener instalado un servidor de bases de datos MariaDB o MySQL y tener acceso al mismo. [[Instalar MariaDB]](InstalarMariaDB.md) o [[Instalar MySQL]](InstalarMySQL.md)
-- Conocer el nombre de usuario y la contraseña de un usuario administrador del servidor, es decir que tenga al menos permisos para la creación de bases de datos y de usuarios.
-- Si los únicos datos de usuario administrador que conocemos son los del usuario *root*, en general, necesitamos tener acceso al mismo equipo en que está instalado el servidor (el usuario *root* no suele tener permiso de acceso remoto).
-
-## Utilidades que proporciona EasyMariaDB
-
 **EasyMariaDB** proporciona las siguientes utilidades:
 
 - [Crear una base de datos](#nueva-base-de-datos)
@@ -21,7 +9,7 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - [Asignar permisos a un usuario](#asignar-permisos-a-un-usuario)
 - [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
 
-### Datos de conexión
+## Datos de conexión
 Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
 
 ![Jekyll](/img/database1.png)
@@ -32,9 +20,10 @@ Los datos que se tienen que proporcionar en este diálogo son:
 - **Usuario**: el nombre de un usuario que tenga permisos para acceder al servidor de bases de datos y que también tenga permisos para realizar la tarea a ejecutar, por ejemplo, si se va a crear una base de datos, el usuario deberá tener permisos de creación de bases de datos.
 - **Contraseña**: la contraseña del usuario anterior.
 
-[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+[Índice de la ayuda](#ayuda-de-easymariadb)
 
-### Nueva base de datos
+
+## Nueva base de datos
 
 Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -58,9 +47,10 @@ Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 
 ![Jekyll](/img/database4.png)
 
-[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+[Índice de la ayuda](#ayuda-de-easymariadb)
 
-### Nuevo usuario
+
+## Nuevo usuario
 
 Para crear un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Nuevo usuario**, o haga  clic sobre el botón *Nuevo usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -76,9 +66,10 @@ Rellene los datos del diálogo como sigue:
 - **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario. Si va a crear un usuario administrador, no seleccione ninguna base de datos.
 - **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente. En Gestión de permisos se explican los privilegios de cada una de  las distintas posibilidades.
 
-[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+[Índice de la ayuda](#ayuda-de-easymariadb)
 
-### Eliminar usuario
+
+## Eliminar usuario
 
 Para eliminar un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Eliminar usuario**, o haga  clic sobre el botón *Eliminar usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -100,9 +91,10 @@ Haga clic en *Sí* en este nuevo diálogo para eliminar definitivamente al usuar
 
 Haga clic en *Aceptar* para cerrar el diálogo.
 
-[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+[Índice de la ayuda](#ayuda-de-easymariadb)
 
-### Cambiar la contraseña de un usuario (por un administrador)
+
+## Cambiar la contraseña de un usuario (por un administrador)
 
 Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña a un usuario**, o haga  clic sobre el botón *Cambiar contraseña a un usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -125,9 +117,10 @@ Se mostrara un mensaje confirmando el cambio de contraseña.
 
 Haga clic en *Aceptar* para cerrar el diálogo
 
-[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+[Índice de la ayuda](#ayuda-de-easymariadb)
 
-### Asignar permisos a un usuario
+
+## Asignar permisos a un usuario
 
 Seleccione el menú **Herramientas > EasyMariaDB > Permisos de usuario**, o haga  clic sobre el botón *Permisos de usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -157,9 +150,10 @@ Los permisos que se pueden asignar son los siguientes:
 - **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizaro otras tareas más avanzadas, como crear funciones, disparadores, etc.
 - **Administrador**. Todos los permisos en todas las bases de datos y en el servidor. Son los mismos permisos que los del usuario root, añadiendo que puede iniciar sesión desde cualquier equipo de la red o incluso de iternet si la red tiene acceso externo. Estos permisos deberían asignarse con mucho cuidado y el usuario que los posea debe proteger cuidadosamente su contraseña. Si no se tienen problemas para acceder como usuario root desde el equipo local, es mejor no asignarlo.
 
-[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+[Índice de la ayuda](#ayuda-de-easymariadb)
 
-### Cambiar la contraseña propia
+
+## Cambiar la contraseña propia
 
 Mientras que las demás opciones se puden ejecutar desde cualquier aplicación de LibreOffice, esta opción solo se puede ejecutar desde Base y además es requisito tener iniciada la sesión en la base de datos a la que pertenece el usuario.
 
@@ -192,7 +186,7 @@ Haga clic en *Aceptar* para cerrar el mensaje. Corrija el error para poder conti
 
 El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Recomendamos reiniciarlo inmediatamente para evitar posibles errores.
 
-[Índice de utilidades](#utilidades-que-proporciona-easymariadb)
+[Índice de la ayuda](#ayuda-de-easymariadb)
 
 
 |[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
