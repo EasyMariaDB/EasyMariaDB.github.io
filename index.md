@@ -15,7 +15,7 @@ Más tarde, también descubrí que estas bases de datos incorporadas son monousu
 
 No tuve muchos problemas para instalar diferentes servidores de bases de datos en mi equipo para probar cuál me sería más útil. Enseguida me di cuenta de que, aunque la instalación y la conexión a los servidores había sido relativamente fácil, si quería crear una base de datos necesitaba crearla desde un programa de línea de comandos, en el que además tenía que escribir sentencias SQL, que en ese momento desconocía. Para rematar, además, las sentencias SQL no eran exactamente las mismas para unos servidores que para otros, unos con comillas dobles, otros con sencillas... Al final me desanimé y deje de utilizar Base.
 
-Hace poco, en un canal de Telegram, volví a ver la pregunta de siempre ¿Base es fiable? ¿Es multiusuario? Y la respuesta (errónea) fue no a las dos preguntas. Digo que la respuesta es errónea porque la fiabilidad y la capacidad multiusuario no las proporciona Base, sino el servidor de bases de datos al que se conecte, bien sea un servidor incorporado o uno externo.
+Hace poco, en un canal de Telegram, volví a ver las preguntas de siempre ¿Base es fiable? ¿Es multiusuario? Y la respuesta (errónea) fue no a las dos preguntas. Digo que la respuesta es errónea porque la fiabilidad y la capacidad multiusuario no las proporciona Base, sino el servidor de bases de datos al que se conecte, bien sea un servidor incorporado o uno externo.
 
 Así que tomé la decisión de intentar demostrar que Base puede ser fiable y multiusuario y mi reto es que, además, la puesta en marcha de un servidor de base de datos sea fácil y la pueda realizar cualquier usuario sin necesidad de tener conocimientos avanzados. Por esta razón creé **EasyMariaDB**.
 
@@ -24,7 +24,7 @@ Así que tomé la decisión de intentar demostrar que Base puede ser fiable y mu
 
 La herramienta **EasyMariaDB**, es una extensión de LibreOffice diseñada para facilitar la creación de bases de datos y de usuarios en un servidor MariaDB o MySQL desde LibreOffice, sin utilizar otros programas ni la consola de comandos.
 
-Ha sido diseñada para utilizarse con un servidor MariaDB o con un servidor MySQL. Ambos servidores son rápidos, fiables y seguros y tienen al menos una versión que es software libre y puede ser descargada e instalada libremente. Además LibreOffice Base tiene incorporado un conector nativo que facilita mucho la conexión a cualquiera de los dos servidores.
+Ha sido diseñada para utilizarse con un servidor MariaDB o con un servidor MySQL. Ambos servidores son rápidos, fiables y seguros y tienen al menos una versión que es software libre y puede ser descargada e instalada libre y gratuitamente. Además LibreOffice Base tiene incorporado un conector nativo que facilita mucho la conexión a cualquiera de estos dos servidores.
 
 Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremos, como era nuestro objetivo, bases de datos fiables, seguras y multiusuario, y junto con la extensión **EsayMariaDB**, fácil de poner en funcionamiento.
 
