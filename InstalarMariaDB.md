@@ -1,7 +1,10 @@
 # Instalación de MaríaDB
 
-```sudo apt install mariadb-server```
+```
+sudo apt install mariadb-server
+```
 
+>sudo apt install mariadb-server
 
 
 ![Jekyll](/img/mariadb1.png)
