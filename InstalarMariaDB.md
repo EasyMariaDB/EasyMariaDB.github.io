@@ -1,8 +1,8 @@
 # Instalación de MaríaDB
 
-'''
+```
 sudo apt install mariadb-server
-'''
+```
 
 
 
