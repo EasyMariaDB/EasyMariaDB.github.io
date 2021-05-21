@@ -9,7 +9,7 @@
 - [Asignar permisos a un usuario](#asignar-permisos-a-un-usuario)
 - [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
 
-Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el mombre de usuario y la contraseña de un admonistrador.
+Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el nombre de usuario y la contraseña de un administrador.
 
 ## Datos de conexión
 Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
@@ -113,7 +113,7 @@ Rellene los datos del diálogo como sigue:
 
 Una vez rellenados los datos, haga clic en *Aceptar* para cambiar la contraseña.
 
-Se mostrara un mensaje confirmando el cambio de contraseña.
+Se mostrará un mensaje confirmando el cambio de contraseña.
 
 ![Jekyll](/img/PassConfirmation.png)
 
@@ -149,7 +149,7 @@ Los permisos que se pueden asignar son los siguientes:
 - **Ninguno (eliminar)**. Se eliminarán todos los permisos que tenga el usuario en la base de datos seleccionada.
 - **Solo lectura**. El usuario podrá leer los datos de la base de datos, pero no podrá modificarlos.
 - **Lectura y escritura**. El usuario podrá leer los datos de la base de datos y también modificarlos, pero no podrá crear ni eliminar tablas o vistas.
-- **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizaro otras tareas más avanzadas, como crear funciones, disparadores, etc.
+- **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizar otras tareas más avanzadas, como crear funciones, disparadores, etc.
 - **Administrador**. Todos los permisos en todas las bases de datos y en el servidor. Son los mismos permisos que los del usuario root, añadiendo que puede iniciar sesión desde cualquier equipo de la red o incluso de iternet si la red tiene acceso externo. Estos permisos deberían asignarse con mucho cuidado y el usuario que los posea debe proteger cuidadosamente su contraseña. Si no se tienen problemas para acceder como usuario root desde el equipo local, es mejor no asignarlo.
 
 [Índice de la ayuda](#ayuda-de-easymariadb)
