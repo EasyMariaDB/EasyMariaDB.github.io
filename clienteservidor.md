@@ -16,9 +16,9 @@ Ser servidor o cliente no depende de que una parte esté instalada en un equipo 
 
 En nuestro caso el servidor va a ser un servidor de base de datos MariaDB o un servidor MySQL. 
 
-Como hemos visto antes, puede estar instalada en cualquier equipo. Si lo único que necesitamos es una base de datos fiable y que nos proporcione otros servicios como gestión de usuarios o permisos de acceso a los datos, podemos instalar MariaDB o MySQL en el mismo equipo en el que vamos a trabajar. El consumo de recursos de cualquiera de los dos servidores es bajo y no se necesita un equipo especialmente potente.
+Como hemos visto antes, puede estar instalado en cualquier equipo. Si lo único que necesitamos es una base de datos fiable y que nos proporcione otros servicios como gestión de usuarios o permisos de acceso a los datos, podemos instalar MariaDB o MySQL en el mismo equipo en el que vamos a trabajar. El consumo de recursos de cualquiera de los dos servidores es bajo y no se necesita un equipo especialmente potente.
 
-Si además necesitamos que nuestra base de datos sea multiusuario, la instalación del servidor de bases de datos elegido la tenemos que hacer en un equipo al que tengan acceso todos los usuarios que necesiten acceder a los datos. Como ya hemos visto no es necesario que sea un equipo especialmente potente (a no ser que sean cientos de usuarios los que se van a conectar). Por ejemplo en un pequeño negocio con cuatro o cinco ordenadores, se puede hacer la instalación en cualquiera de los ordenadores y el resto acceder a los datos. Lo único necesario es que, como es lógico, el equipo que ejecuta el servidor debe estar encendido para poder acceder a los datos.
+Si además necesitamos que nuestra base de datos sea multiusuario, la instalación del servidor de bases de datos elegido, la tenemos que hacer en un equipo al que tengan acceso todos los usuarios que necesiten acceder a los datos. Como ya hemos visto no es necesario que sea un equipo especialmente potente (a no ser que sean cientos de usuarios los que se van a conectar). Por ejemplo en un pequeño negocio con cuatro o cinco ordenadores, se puede hacer la instalación en cualquiera de los ordenadores y el resto acceder a los datos. Lo único necesario es que, como es lógico, el equipo que ejecuta el servidor debe estar encendido para poder acceder a los datos.
 
 ## El lado cliente
 
