@@ -53,22 +53,30 @@ create user 'admin' identified by 'password';
 ```
 Si todo es correcto, aparecerá el mensaje *Query OK* seguido del número de filas afectadadas, en este caso 0.
 
+![Jekyll](/img/mariadb6.png)
+
 A continuación daremos todos los permisos en todas las bases de datos al usuario creado; es decir, vamos a crear un usuario administrador, con todos los permisos posibles. Escriba el siguiente comando, y a continuación pulse *Intro*.
 ```
 grant all on *.* to 'admin' with grant option;
 ```
 Nuevamente, si todo es correcto, aparecerá el mensaje *Query OK*.
 
+![Jekyll](/img/mariadb7.png)
+
 Para asegurarnos que los permisos son efectivos inmediatamente, escriba el siguiente comando, y a continuación pulse *Intro*.
 ```
 flush privileges;
 ```
 
+![Jekyll](/img/mariadb8.png)
 
 Ya, para finalizar, escribimos el siguiente comando para salir del terminal de MariaDB, tras el comando pulse *Intro*.
 ```
 exit;
 ```
+Regresaremos al terminal de Linux.
+
+![Jekyll](/img/mariadb9.png)
 
 Queda así finalizada la instalación y configuración de MariaDB. Recuerde el nombre de usuario y la contraseña configurada en estos últimos pasos pués será necesaria para conectar con MariaDB desde LibreOffice.
 
