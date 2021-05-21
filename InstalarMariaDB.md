@@ -21,13 +21,13 @@ Al ejecutar el comando aparecerá el siguiente mensaje.
 
 ![Jekyll](/img/mariadb2.png)
 
-Tras el prmer mensaje, se solicita la contraseña del usuario *root*. Se trata de la contraseñas del usurario *root* de MariaDB, y no la del usuario *root* del sistema operativo. Como aún no hemos configurado ua contraseña para este usuario, estará en blanco. Pulse *Intro* sin escribir nada para continuar.
+Tras el prmer mensaje, se solicita la contraseña del usuario *root*. Se trata de la contraseñas del usurario *root* de MariaDB, y no la del usuario *root* del sistema operativo. Como aún no hemos configurado una contraseña para este usuario, estará en blanco. Pulse *Intro* sin escribir nada para continuar.
 
 Aparece un nuevo mensaje preguntando si deseamos configurar una contraseña para el usuario *root*. 
 
 ![Jekyll](/img/mariadb3.png)
 
-Escriba *Y* o pulse intro para configurar la contraseña. Escriba la contraseña dos veces. En realidad esta contraseña no tiene efecto porque, por defecto, MariaDB viene configurada para utilizar la identificación por *sockets*, que no usa contraseñas de usuario.
+Escriba *Y* o pulse *Intro* para configurar la contraseña. Escriba la contraseña dos veces. En realidad esta contraseña no tiene efecto porque, por defecto, MariaDB viene configurada para utilizar la identificación por *sockets*, que no usa contraseñas de usuario.
 
 A continuación se muestran una serie de preguntas relacionadas con la seguridad de MariaDB. Lo mejor es que conteste *Y* a todo (o símplemente pulse *Intro*).
 
