@@ -21,7 +21,7 @@ Al ejecutar el comando aparecerá el siguiente mensaje.
 
 ![Jekyll](/img/mariadb2.png)
 
-Tras el prmer mensaje, se solicita la contraseña del usuario *root*. Se trata de la contraseñas del usurario *root* de MariaDB, y no la del usuario *root* del sistema operativo. Como aún no hemos configurado una contraseña para este usuario, estará en blanco. Pulse *Intro* sin escribir nada para continuar.
+Tras el primer mensaje, se solicita la contraseña del usuario *root*. Se trata de la contraseña del usuario *root* de MariaDB, y no la del usuario *root* del sistema operativo. Como aún no hemos configurado una contraseña para este usuario, estará en blanco. Pulse *Intro* sin escribir nada para continuar.
 
 Aparece un nuevo mensaje preguntando si deseamos configurar una contraseña para el usuario *root*. 
 
@@ -29,11 +29,11 @@ Aparece un nuevo mensaje preguntando si deseamos configurar una contraseña para
 
 Escriba *Y* o pulse *Intro* para configurar la contraseña. Escriba la contraseña dos veces. En realidad esta contraseña no tiene efecto porque, por defecto, MariaDB viene configurada para utilizar la identificación por *sockets*, que no usa contraseñas de usuario.
 
-A continuación se muestran una serie de preguntas relacionadas con la seguridad de MariaDB. Lo mejor es que conteste *Y* a todo (o símplemente pulse *Intro*).
+A continuación se muestran una serie de preguntas relacionadas con la seguridad de MariaDB. Lo mejor es que conteste *Y* a todo (o simplemente pulse *Intro*).
 
 ![Jekyll](/img/mariadb4.png)
 
-Una vez finalizado el programa tendremos nuestra instalación de María DB un poco más segura.
+Una vez finalizado el programa tendremos nuestra instalación de MaríaDB un poco más segura.
 
 Aunque había prometido no tener que lidiar con comandos SQL, debido al sistema de identificación por *sockets*, para poder conectar al servidor MariaDB, necesitamos configurar un usuario con permisos de administrador. No se preocupe, esto tendremos que hacerlo solamente una vez.
 
@@ -45,13 +45,13 @@ Al pulsar *Intro*, tras un mensaje de bienvenida, aparece el indicador *MariaDB 
 
 ![Jekyll](/img/mariadb5.png)
 
-Para poder conectar con MaríaDB desde lugares diferentes a este terminal, necesitamos crear un usuario y otrogarle los permisos necesarios.
+Para poder conectar con MaríaDB desde lugares diferentes a este terminal, necesitamos crear un usuario y otorgarle los permisos necesarios.
 
 Primero creamos el usuario y su contraseña. Escriba el siguiente comando y pulse *Intro*; puede sustituir el nombre de usuario *admin* por cualquier nombre elegido por usted, por supuesto debe cambiar la contraseña *password* por otra contraseña. Las comillas simples que rodean el nombre de usuario y la contraseña, forman parte del comando, por lo que debe escribirlas. Dese cuenta que el comando finaliza con punto y coma (;).
 ```
 create user 'admin' identified by 'password';
 ```
-Si todo es correcto, aparecerá el mensaje *Query OK* seguido del número de filas afectadadas, en este caso 0.
+Si todo es correcto, aparecerá el mensaje *Query OK* seguido del número de filas afectadas, en este caso 0.
 
 ![Jekyll](/img/mariadb6.png)
 
@@ -78,6 +78,6 @@ Regresaremos al terminal de Linux.
 
 ![Jekyll](/img/mariadb9.png)
 
-Queda así finalizada la instalación y configuración de MariaDB. Recuerde el nombre de usuario y la contraseña configurada en estos últimos pasos pués será necesaria para conectar con MariaDB desde LibreOffice.
+Queda así finalizada la instalación y configuración de MariaDB. Recuerde el nombre de usuario y la contraseña configurada en estos últimos pasos pues será necesaria para conectar con MariaDB desde LibreOffice.
 
 
