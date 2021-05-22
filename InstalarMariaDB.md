@@ -86,4 +86,20 @@ Queda así finalizada la instalación y configuración de MariaDB. Recuerde el n
 
 ## Instalar MariaDB en Windows
 
+![Jekyll](/img/mariadbwin1.png)
+
+![Jekyll](/img/mariadbwin2.png)
+
+![Jekyll](/img/mariadbwin3.png)
+
+![Jekyll](/img/mariadbwin4.png)
+
+![Jekyll](/img/mariadbwin5.png)
+
+![Jekyll](/img/mariadbwin6.png)
+
+![Jekyll](/img/mariadbwin7.png)
+
+![Jekyll](/img/mariadbwin8.png)
+
 ![Jekyll](/img/mariadbwin9.png)
