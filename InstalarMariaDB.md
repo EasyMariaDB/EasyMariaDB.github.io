@@ -1,5 +1,8 @@
 # Instalación de MaríaDB
 
+[Instalar MariaDB en Linux](instalar-mariadb-en-linux)
+[Instalar MariaDB en Windows](instalar-mariadb-en-windows)
+
 ## Instalar MariaDB en Linux
 
 Como no podemos abarcar la instalación en todas las distribuciones de Linux, en este documento explicaremos como instalar MariaDB en Ubuntu y sistemas derivados. Si usted tiene otra distribución de Linux diferente, puede que tenga que adaptar las órdenes a su sistema.
@@ -79,5 +82,7 @@ Regresaremos al terminal de Linux.
 ![Jekyll](/img/mariadb9.png)
 
 Queda así finalizada la instalación y configuración de MariaDB. Recuerde el nombre de usuario y la contraseña configurada en estos últimos pasos pues será necesaria para conectar con MariaDB desde LibreOffice.
+
+## Instalar MariaDB en Windows
 
 
