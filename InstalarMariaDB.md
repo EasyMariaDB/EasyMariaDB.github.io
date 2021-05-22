@@ -1,6 +1,7 @@
 # Instalación de MaríaDB
 
 [Instalar MariaDB en Linux](instalar-mariadb-en-linux)
+
 [Instalar MariaDB en Windows](instalar-mariadb-en-windows)
 
 ## Instalar MariaDB en Linux
