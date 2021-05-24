@@ -19,7 +19,7 @@ Comenzará la instalación de MariaDB
 
 Una vez que ha finalizado la instalación, para asegurar la instalación de MariaDB, ejecute el siguiente comando:
 ```
-sudo mysql_secure_instalation
+sudo mysql_secure_installation
 ```
 Al ejecutar el comando aparecerá el siguiente mensaje.
 
