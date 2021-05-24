@@ -118,3 +118,7 @@ El archivo my.ini debe ser un archivo de texto plano, sin formato. Se puede crar
 - En la sección [mariadb] añada la siguiente línea: *lc_messages=es_ES*.
 - Cierre el archivo y guarde los cambios.
 - Reinicie el ordenador para que los cambios surtan efecto.
+
+El archivo my.ini deberá pareceerse a esta imagen:
+
+![Jekyll](/img/mariadbwin8.png)
