@@ -102,4 +102,16 @@ Queda así finalizada la instalación y configuración de MariaDB. Recuerde el n
 
 ![Jekyll](/img/mariadbwin8.png)
 
-![Jekyll](/img/mariadbwin9.png)
+### Poner los mensajes de MariaDB en español
+
+Por defecto, todos los mensajes de MariaDB son en inglés, pero se puede configurar para que los mensajes sean en español. Para ello es necesario modificar, si existe, un archivo llamado my.ini; si el archivo no existe hay que crearlo.
+
+El archivo mi.ini debe ser un archivo de texto plano, sin formato. Se puede crar o modificar con el *Bloc de notas*. Puede estar localizado en varios lugares, pero en nuestra experiencia, lo mejor es situarlo en la carpeta de datos de MariaDB, situada generalmente en "C:\Program Files\MariaDB XX.X\data".
+- Con el explorador de archivos naveguea hasta "C:\Archivos de programa\MariaDB XX.X\data".
+- Si no tiene visibles las extensiones de los archivos, en el menú del navegador de archivos seleccione *Vista* y marque la opción _Extensiones de nombre de archivo_.
+- Si no existe el archivo my.ini, créelo:
+  - Haga clic con el botón derecho del ratón en un lugar vacío de la carpeta
+  - En el menú emergente seleccione **Nuevo > Documento de texto**
+  - Cambie el nombre del archivo a my.ini
+- Abra el archivo my.ini haciendo doble clic sobre él
+- Si no existe el archivo my.ini, haga clic con el botón derecho del ratón en la carpeta y en menú emergente seleccione **Nuevo > Documento de texto** 
