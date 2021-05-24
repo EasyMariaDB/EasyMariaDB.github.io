@@ -121,4 +121,4 @@ El archivo my.ini debe ser un archivo de texto plano, sin formato. Se puede crar
 
 El archivo my.ini deberá pareceerse a esta imagen:
 
-![Jekyll](/img/mariadbwin8.png)
+![Jekyll](/img/mariadbwin9.png)
