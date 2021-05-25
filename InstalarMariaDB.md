@@ -111,6 +111,7 @@ lc_messages=es_ES
 ```
 systemctl restart mariadb
 ````
+A partir de ahora, los mensajes de error de MariaDB deberían mostrarse en español.
 
 ## Instalar MariaDB en Windows
 
