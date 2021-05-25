@@ -107,9 +107,9 @@ lc_messages=es_ES
 ![Jekyll](/img/mariadb10.png)
 
 - Cierre el archivo y guarde los cambios.
-- Reinicie el servidor MariaDB para que surtan efecto los cambios, para ello ejecute la siguiente orden:
+- Reinicie el servidor MariaDB para que surtan efecto los cambios, para ello, en un terminal, ejecute la siguiente orden:
 ```
-systemctl restart mariadb
+sudo systemctl restart mariadb
 ````
 A partir de ahora, los mensajes de error de MariaDB deberían mostrarse en español.
 
