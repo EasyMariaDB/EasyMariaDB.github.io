@@ -148,4 +148,5 @@ lc_messages=es_ES
 - Cierre el archivo y guarde los cambios.
 - Reinicie el ordenador para que los cambios surtan efecto.
 
+Ahora, los mensajes de error de MariaDB deberían mostrarse en español.
 
