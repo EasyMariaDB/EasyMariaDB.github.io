@@ -86,7 +86,7 @@ Queda así finalizada la instalación y configuración de MariaDB. Recuerde el n
 
 ## Instalar MariaDB en Windows
 
-Descargue MariaDB de la página oficial de descargas https://mariadb.org/download/.
+Descargue MariaDB de la página oficial de descargas [https://mariadb.org/download/](https://mariadb.org/download/).
 
 Una vez descargado el instalador ejecútelo. En primer lugar aparecerá una página de bienvenida.
 
