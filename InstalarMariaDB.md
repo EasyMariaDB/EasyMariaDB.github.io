@@ -142,9 +142,10 @@ El archivo _my.ini_ debe ser un archivo de texto plano, sin formato. Se puede cr
 ```
 lc_messages=es_ES
 ```
+- El archivo _my.ini_ deberá pareceerse a esta imagen:
+
+![Jekyll](/img/mariadbwin9.png)
 - Cierre el archivo y guarde los cambios.
 - Reinicie el ordenador para que los cambios surtan efecto.
 
-El archivo _my.ini_ deberá pareceerse a esta imagen:
 
-![Jekyll](/img/mariadbwin9.png)
