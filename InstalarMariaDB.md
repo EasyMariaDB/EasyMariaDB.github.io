@@ -84,6 +84,34 @@ Regresaremos al terminal de Linux.
 
 Queda así finalizada la instalación y configuración de MariaDB. Recuerde el nombre de usuario y la contraseña configurada en estos últimos pasos pues será necesaria para conectar con MariaDB desde LibreOffice.
 
+### Configurar MariaDB para que muestre los mensajes en español
+
+Por defecto, todos los mensajes de MariaDB son en inglés, pero se puede configurar para que los mensajes sean en español. Para ello es necesario modificar, si existe, un archivo llamado _my.cnf_; si el archivo no existe hay que crearlo.
+
+El archivo _my.cnf_, es un archivo de texto plano, sin formato. Generalmente estará situado en la carpeta /etc/mysql/.
+
+- Abra el archivo _my.cnf_ con su editor preferido, por ejemplo, en un terminal escriba:
+```
+sudo nano /etc/mysql/my.cnf
+```
+- Si el archivo ya existia, busque la sección [mariadb],  si no la encuentra, añada una línea con el texto (incluidos los corchetes):
+```
+[mariadb]
+```
+- En la sección [mariadb] añada la siguiente línea: 
+```
+lc_messages=es_ES
+```
+- El archivo _my.cnf_ deberá pareceerse a esta imagen:
+
+![Jekyll](/img/mariadb10.png)
+
+- Cierre el archivo y guarde los cambios.
+- Reinicie el servidor MariaDB para que surtan efecto los cambios, para ello ejecute la siguiente orden:
+```
+systemctl restart mariadb
+````
+
 ## Instalar MariaDB en Windows
 
 Descargue MariaDB de la página oficial de descargas <a href="https://mariadb.org/download/" target="_blank">https://mariadb.org/download/</a>
@@ -146,6 +174,7 @@ lc_messages=es_ES
 - El archivo _my.ini_ deberá pareceerse a esta imagen:
 
 ![Jekyll](/img/mariadbwin9.png)
+
 - Cierre el archivo y guarde los cambios.
 - Reinicie el ordenador para que los cambios surtan efecto.
 
