@@ -86,38 +86,62 @@ Queda así finalizada la instalación y configuración de MariaDB. Recuerde el n
 
 ## Instalar MariaDB en Windows
 
-Descargue MariaDB de la página oficial de descargas https://mariadb.org/download/
+Descargue MariaDB de la página oficial de descargas https://mariadb.org/download/.
+
+Una vez descargado el instalador ejecútelo. En primer lugar aparecerá una página de bienvenida.
 
 ![Jekyll](/img/mariadbwin1.png)
 
+Haga clic en _Next_.
+
 ![Jekyll](/img/mariadbwin2.png)
+
+A continuación se muestra la licencia, debe marcar la opción _I accept the termns in the License Agreement_ y haga clic en _Next_.
 
 ![Jekyll](/img/mariadbwin3.png)
 
+Si lo desea, en _Third party tools_ puede marcar la opción _Entire feature will be unavailable_ para no instalar el programa HeidiSQL, no lo vamos a necesitar. Haga clic en _Next_.
+
 ![Jekyll](/img/mariadbwin4.png)
+
+En la siguiente pantalla, deje marcado _Modify password for database user 'root'_ y escriba una contraseña, repita la contraseña en el siguiente cuadro de texto. Recuerde la contraseña, pues la necesitará más adelante. En este paso también debe marcar la opción _Use UTF8 as default server's character set_. Para mayor seguridad deje sin marcar la opción _Enable access from remote machines for 'root' user_. Haga clic en _Next_.
 
 ![Jekyll](/img/mariadbwin5.png)
 
+Si no tiene ninguna razón para ello, deje todo como está en esta pantalla. Haga clic en _Next_.
+
 ![Jekyll](/img/mariadbwin6.png)
+
+Ya está todo listo para comenzar la instalación. Haga clic en _Install_, aparecera una ventana de confirmación de Windows, acepte para continuar con la instalación.
 
 ![Jekyll](/img/mariadbwin7.png)
 
+Comenzará la instalación.
+
 ![Jekyll](/img/mariadbwin8.png)
 
-### Poner los mensajes de MariaDB en español
+Cuando la instalación haya finalizado, aparece una ventana informando de ello. Haga clic en _Finish_ par finalizar la instalación.
+
+### Configurar MariaDB para que muestre los mensajes en español
 
 Por defecto, todos los mensajes de MariaDB son en inglés, pero se puede configurar para que los mensajes sean en español. Para ello es necesario modificar, si existe, un archivo llamado my.ini; si el archivo no existe hay que crearlo.
 
-El archivo my.ini debe ser un archivo de texto plano, sin formato. Se puede crar o modificar con el *Bloc de notas*. Puede estar localizado en varios lugares, pero en nuestra experiencia, lo mejor es situarlo en la carpeta de datos de MariaDB, situada generalmente en "C:\Program Files\MariaDB XX.X\data".
-- Con el explorador de archivos naveguea hasta "C:\Archivos de programa\MariaDB XX.X\data".
+El archivo my.ini debe ser un archivo de texto plano, sin formato. Se puede crar o modificar con el *Bloc de notas*. Puede estar localizado en varios lugares, pero en nuestra experiencia, lo mejor es situarlo en la carpeta de datos de MariaDB, situada generalmente en "C:\Program Files\MariaDB XX.X\data\". Para configurar el archivo:
+- Con el explorador de archivos naveguea hasta "C:\Archivos de programa\MariaDB XX.X\data\".
 - Si no tiene visibles las extensiones de los archivos, en el menú del navegador de archivos seleccione *Vista* y marque la opción _Extensiones de nombre de archivo_.
 - Si no existe el archivo my.ini, créelo:
   - Haga clic con el botón derecho del ratón en un lugar vacío de la carpeta.
   - En el menú emergente seleccione **Nuevo > Documento de texto**.
-  - Cambie el nombre del archivo a my.ini.
+  - Cambie el nombre del archivo a my.ini (escríba el en minúsculas).
 - Abra el archivo my.ini haciendo doble clic sobre él.
-- Busque la sección [mariadb] si el archivo ya existia y si no la encuentra o acaba de crear el archivo añada una línea con el texto _[mariadb]_ (incluidos los corchetes.
-- En la sección [mariadb] añada la siguiente línea: *lc_messages=es_ES*.
+- Busque la sección [mariadb] si el archivo ya existia y si no la encuentra o acaba de crear el archivo añada una línea con el texto (incluidos los corchetes):
+```
+[mariadb]
+```
+- En la sección [mariadb] añada la siguiente línea: 
+```
+lc_messages=es_ES
+```
 - Cierre el archivo y guarde los cambios.
 - Reinicie el ordenador para que los cambios surtan efecto.
 
