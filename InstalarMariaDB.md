@@ -124,7 +124,7 @@ Cuando la instalación haya finalizado, aparece una ventana informando de ello. 
 
 ### Configurar MariaDB para que muestre los mensajes en español
 
-Por defecto, todos los mensajes de MariaDB son en inglés, pero se puede configurar para que los mensajes sean en español. Para ello es necesario modificar, si existe, un archivo llamado my.ini; si el archivo no existe hay que crearlo.
+Por defecto, todos los mensajes de MariaDB son en inglés, pero se puede configurar para que los mensajes sean en español. Para ello es necesario modificar, si existe, un archivo llamado _my.ini_; si el archivo no existe hay que crearlo.
 
 El archivo my.ini debe ser un archivo de texto plano, sin formato. Se puede crar o modificar con el *Bloc de notas*. Puede estar localizado en varios lugares, pero en nuestra experiencia, lo mejor es situarlo en la carpeta de datos de MariaDB, situada generalmente en "C:\Program Files\MariaDB XX.X\data\". Para configurar el archivo:
 - Con el explorador de archivos naveguea hasta "C:\Archivos de programa\MariaDB XX.X\data\".
