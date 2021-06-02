@@ -1,7 +1,6 @@
 # Índice
 - [Introducción](https://#introducción)
 - [¿Qué es EasyMariaDB](#qué-es-easymariadb)
-- [Requisitos previos](#requisitos-previos)
 - [Entender la arquitectura cliente servidor](clienteservidor.md)
 - [Ayuda de EasyMariaDB](ayuda.md)
 
