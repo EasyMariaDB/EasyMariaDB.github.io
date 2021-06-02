@@ -3,48 +3,14 @@
 Para descargar e instalar la extensión EasyMariaDB realice los siguientes pasos:
 
 1. Descargue la extensión de 
-2. Descomprima el archivo descargadoimágen
-4. Abra LibreOffice y vaya a Herramientas > Gestor de extensiones
-1. In Extension Manager dialog, click Add....
+1. Descomprima el archivo descargadoimágen
+1. Abra LibreOffice y vaya a **Herramientas > Gestor de extensiones**
+1. En el gestor de extensiones seleccione _Añadir_
+1. En el diálogo Añadir exensión, busque la carpeta EasyMariaDB descargada y en su interior, seleccione el archivo EasyMariaDBxx.oxt
+1. Haga cile en _Abrir_ para comenzar la instalación
+1. Si tiene permisos de administrador, se le preguntará si desea instalar la extensión _Solo para mí_ o _Para todos los usuarios_, seleccione la opción adecuada. Si no está seguro o no tiene permisos de administrador, seleccione _Solo para mí_
+2. Leea la licencia de la extensión. Pulse el botón _Bajar_ para ver el texto completo. Puse en _Aceptar_ para proseguir con la instalación
+3. Una vez instalada, en el _Gestor de extensiones_, haga clic en el botón _Cerrar_
+4. Reinicie LibreOffice
 
-Inst ext 2.PNG
-
-
-1. In the Add Extension(s) dialogue, find the extension file for LibreOffice (OXT file type).
-
-Inst ext 3.PNG
-
-
-1. Select the extension and click Open to begin installation.
-
-If this extension it is already installed, you'll be prompted to press OK to confirm you want to overwrite the current version with the new one (select Cancel to stop the installation).
-
-Inst ext 3 1.png
-
-
-6. If you have system administrator rights, you will be asked whether to install the extension only for yourself or for all users. Select the appropriate choice. If you choose Only for me option, the extension will only be stored in your user profile. If you choose For all users, the extension is installed in the LibreOffice installation directory. If you are unsure or do not have admininstrator rights, choose Only for me.
-
-Inst ext 4.PNG
-
-
-7. verify the extension license agreement. Use Scroll down button to read the license agreement. At the end of license text, the Accept button will be enabled.
-
-Inst ext 5.PNG
-
-
-8. Click Accept to proceed the installation. After the installation, the extension will appear in the list of installed extensions.
-
-Inst ext 7.PNG
-
-
-9. To complete the procedure, click Close and close LibreOffice, including quickstarter (if enabled, it appears on the right corner of the program bar and can be closed with the right mouse button).
-
-
-10. The next time you open LibreOffice, the extension should be ready for use.
-
-Inst ext 8.PNG
-
-
-NOTES:
-
-- The OXT file type is linked to LibreOffice. Double clicking on the OXT file opens the Extension Manager and starts the installation.
+La próxima vez que inicie LibreOffice tendrá en el menú _Herramientas_ una opción de menú nueva: _EasyMariaDB_ que al seleccionarla despliega varias opciones con las utilidades de EasyMariaDB
