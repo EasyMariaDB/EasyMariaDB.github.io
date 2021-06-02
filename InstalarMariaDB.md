@@ -177,7 +177,7 @@ lc_messages=es_ES
 ![Jekyll](/img/mariadbwin9.png)
 
 - Cierre el archivo y guarde los cambios.
-- Reinicie el ordenador para que los cambios surtan efecto.
+- Reinicie el servicio MariaDB, o reinicie el ordenador, para que los cambios surtan efecto.
 
-Ahora, los mensajes de error de MariaDB deberían mostrarse en español.
+A partir de ahora, los mensajes de error de MariaDB deberían mostrarse en español.
 
