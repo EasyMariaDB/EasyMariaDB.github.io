@@ -1,7 +1,7 @@
 # Ayuda de EasyMariaDB
 
 - [Requisitos previos](#requisitos-previos)
-- [Utilidades proprcionadas por EasyMariaDB](#utilidades-proporcionadas-por-easymariadb
+- [Utilidades proprcionadas por EasyMariaDB](#utilidades-proporcionadas-por-easymariadb)
 
 ## Requisitos previos
 
