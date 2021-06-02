@@ -86,7 +86,7 @@ Queda así finalizada la instalación y configuración de MariaDB. Recuerde el n
 
 ### Configurar MariaDB para que muestre los mensajes en español
 
-Como casi todas las bases de datos, incluidas las bases de datos incorporadas de LibreOffice, MariaDB muestra los mensajes de error en inglés, pero se puede configurar para que se muestren los mensajes en español. Para ello es necesario modificar, si existe, un archivo llamado _my.cnf_; si el archivo no existe hay que crearlo.
+Como casi todas las bases de datos, incluidas las bases de datos incorporadas de LibreOffice, MariaDB muestra los mensajes de error en inglés, pero se puede configurar para que se muestren los mensajes en español. Para ello es necesario modificar, si existe, un archivo llamado _my.cnf_. Si el archivo no existe hay que crearlo.
 
 El archivo _my.cnf_, es un archivo de texto plano, sin formato. Generalmente estará situado en la carpeta /etc/mysql/.
 
@@ -154,7 +154,7 @@ Cuando la instalación haya finalizado, aparece una ventana informando de ello. 
 
 ### Configurar MariaDB para que muestre los mensajes en español
 
-Como casi todas las bases de datos, incluidas las bases de datos incorporadas de LibreOffice, MariaDB muestra los mensajes de error en inglés, pero se puede configurar para que se muestren los mensajes en español. Para ello es necesario modificar, si existe, un archivo llamado _my.ini_; si el archivo no existe hay que crearlo.
+Como casi todas las bases de datos, incluidas las bases de datos incorporadas de LibreOffice, MariaDB muestra los mensajes de error en inglés, pero se puede configurar para que se muestren los mensajes en español. Para ello es necesario modificar, si existe, un archivo llamado _my.ini_. Si el archivo no existe hay que crearlo.
 
 El archivo _my.ini_ debe ser un archivo de texto plano, sin formato. Se puede crar o modificar con el *Bloc de notas*. Puede estar localizado en varios lugares, pero en nuestra experiencia, lo mejor es situarlo en la carpeta de datos de MariaDB, situada generalmente en "C:\Program Files\MariaDB XX.X\data\". Para configurar el archivo:
 - Con el explorador de archivos naveguea hasta "C:\Archivos de programa\MariaDB XX.X\data\".
