@@ -2,13 +2,9 @@
 
 Para descargar e instalar la extensión EasyMariaDB realice los siguientes pasos:
 
-1. Descargue laa extensión de 
+1. Descargue la extensión de 
 2. Descomprima el archivo descargadoimágen
 4. Abra LibreOffice y vaya a Herramientas > Gestor de extensiones
-
-Inst ext 1.PNG
-
-
 1. In Extension Manager dialog, click Add....
 
 Inst ext 2.PNG
