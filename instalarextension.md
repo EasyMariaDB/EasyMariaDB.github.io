@@ -1,8 +1,7 @@
-NOTE: You install extensions on your own risk! The extensions from the site below have not all been thoroughly reviewed or tested. Further, keep in mind that not all Open Officve (OOo) extensions may work with Libreoffice.
-
-1. Download an extension from LibreOffice Extension Center
-
-2. Open LibreOffice and go to Tools ▸ Extension Manager ...
+1. Descargue laa extensión de 
+2. Descomprima el archivo descargado
+imágen
+4. Abra LibreOffice y vaya a Herramientas > Gestor de extensiones
 
 Inst ext 1.PNG
 
