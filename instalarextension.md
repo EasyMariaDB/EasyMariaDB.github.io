@@ -9,17 +9,17 @@ Para descargar e instalar la extensión EasyMariaDB realice los siguientes pasos
 Inst ext 1.PNG
 
 
-3. In Extension Manager dialog, click Add....
+1. In Extension Manager dialog, click Add....
 
 Inst ext 2.PNG
 
 
-4. In the Add Extension(s) dialogue, find the extension file for LibreOffice (OXT file type).
+1. In the Add Extension(s) dialogue, find the extension file for LibreOffice (OXT file type).
 
 Inst ext 3.PNG
 
 
-5. Select the extension and click Open to begin installation.
+1. Select the extension and click Open to begin installation.
 
 If this extension it is already installed, you'll be prompted to press OK to confirm you want to overwrite the current version with the new one (select Cancel to stop the installation).
 
