@@ -37,7 +37,7 @@ Los datos que se tienen que proporcionar en este diálogo son:
 [Índice de la ayuda](#ayuda-de-easymariadb)
 
 
-## Nueva base de datos
+### Nueva base de datos
 
 Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -64,7 +64,7 @@ Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 [Índice de la ayuda](#ayuda-de-easymariadb)
 
 
-## Nuevo usuario
+### Nuevo usuario
 
 Para crear un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Nuevo usuario**, o haga  clic sobre el botón *Nuevo usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -83,7 +83,7 @@ Rellene los datos del diálogo como sigue:
 [Índice de la ayuda](#ayuda-de-easymariadb)
 
 
-## Eliminar usuario
+### #Eliminar usuario
 
 Para eliminar un usuario, seleccione el menú **Herramientas > EasyMariaDB > Eliminar usuario**, o haga  clic sobre el botón *Eliminar usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -108,7 +108,7 @@ Haga clic en *Aceptar* para cerrar el diálogo.
 [Índice de la ayuda](#ayuda-de-easymariadb)
 
 
-## Cambiar la contraseña de un usuario (por un administrador)
+### Cambiar la contraseña de un usuario (por un administrador)
 
 Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña a un usuario**, o haga  clic sobre el botón *Cambiar contraseña a un usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -134,7 +134,7 @@ Haga clic en *Aceptar* para cerrar el diálogo
 [Índice de la ayuda](#ayuda-de-easymariadb)
 
 
-## Asignar permisos a un usuario
+### Asignar permisos a un usuario
 
 Seleccione el menú **Herramientas > EasyMariaDB > Permisos de usuario**, o haga  clic sobre el botón *Permisos de usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -167,7 +167,7 @@ Los permisos que se pueden asignar son los siguientes:
 [Índice de la ayuda](#ayuda-de-easymariadb)
 
 
-## Cambiar la contraseña propia
+### Cambiar la contraseña propia
 
 Mientras que las demás opciones se puden ejecutar desde cualquier aplicación de LibreOffice, esta opción solo se puede ejecutar desde Base y además es requisito tener iniciada la sesión en la base de datos a la que pertenece el usuario.
 
