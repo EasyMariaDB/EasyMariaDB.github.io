@@ -1,5 +1,8 @@
 # Ayuda de EasyMariaDB
 
+- [Requisitos previos](#requisitos-previos)
+- [Utilidades proprcionadas por EasyMariaDB](#utilidades-proporcionadas-por-easymariadb
+
 ## Requisitos previos
 
 Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
@@ -10,7 +13,7 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - Conocer el nombre de usuario y la contraseña de un usuario administrador del servidor, es decir que tenga al menos permisos para la creación de bases de datos y de usuarios.
 - Si los únicos datos de usuario administrador que conocemos son los del usuario *root*, en general, necesitamos tener acceso al mismo equipo en que está instalado el servidor (el usuario *root* no suele tener permiso de acceso remoto).
 
-## Utilidades de EasyMariaDB
+## Utilidades proporcionadas por EasyMariaDB
 
 **EasyMariaDB** proporciona las siguientes utilidades:
 
