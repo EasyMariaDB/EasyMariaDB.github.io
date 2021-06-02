@@ -23,7 +23,7 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 
 Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el nombre de usuario y la contraseña de un administrador.
 
-# Datos de conexión
+### Datos de conexión
 Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
 
 ![Jekyll](/img/database1.png)
