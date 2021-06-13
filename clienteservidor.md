@@ -1,3 +1,5 @@
+|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB >](ayuda.md) |
+
 # Entender la arquitectura cliente servidor
 
 ## Servidor y cliente
