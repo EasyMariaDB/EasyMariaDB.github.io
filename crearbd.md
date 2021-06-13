@@ -25,7 +25,7 @@ Una vez cumplidos los requisitos previos, siga los siguientes pasos
 
   - Escriba el _Nombre de usuario_ y marque la casilla _Contraseña obligatoria_.
 
-![Jekyll](/img/con5.png)
+![Jekyll](/img/con5.png) 
 
   - Decida si registrar o no la base de datos y qué hacer al finalizar el asistente. Haga clic en _Finalizar_ y guarde el archivo .odb en un lugar conveniente.
 
