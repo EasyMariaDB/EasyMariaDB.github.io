@@ -4,6 +4,9 @@
 - [Entender la arquitectura cliente servidor](clienteservidor.md)
 - [Instalar la extensión](instalarextension.md)
 - [Ayuda de EasyMariaDB](ayuda.md)
+  - [Requisitos previos](requisitos.md)
+  - [Crear una base de datos y conectarse a ella](crearbd.md)
+  - [Utiidades proporcionadas por EasyMariaDB](requisitos.md)
 
 # Introducción
 Al poco tiempo de comenzar a utilizar LibreOffice Base, descubrí que la base de datos HSQLDB incorporada, con el uso, daba errores debido a la corrupción del archivo .odb. Para evitarlo, en varias páginas web recomendaban hacer una base de datos separada.
