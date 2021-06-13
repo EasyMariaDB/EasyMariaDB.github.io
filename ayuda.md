@@ -1,6 +1,7 @@
 # Ayuda de EasyMariaDB
 
 - [Requisitos previos](#requisitos-previos)
+- Paso a paso
 - [Utilidades proprcionadas por EasyMariaDB](#utilidades-proporcionadas-por-easymariadb)
 
 ## Requisitos previos
