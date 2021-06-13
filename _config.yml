@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 title: "EasyMariaDB" 
 description: >
  Facilita la creación, desde LibreOffice, de bases de datos y usuarios de MariaDB y MySQL
