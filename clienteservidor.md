@@ -46,4 +46,4 @@ Si el usuario posee su propio archivo .odb, es libre de crear y modificar sus pr
 
 Este sistema proporciona más flexibilidad, pero también más trabajo para preparar formularios y demás elementos.
 
-|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Instalar la extensión >](instalarextension.md) |
+|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) | [Instalar la extensión >](instalarextension.md) |
