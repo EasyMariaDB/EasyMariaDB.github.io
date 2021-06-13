@@ -22,7 +22,7 @@ Los datos que se tienen que proporcionar en este diálogo son:
 - **Usuario**: el nombre de un usuario que tenga permisos de administrador de MariaDB o MySQL.
 - **Contraseña**: la contraseña del usuario anterior.
 
-[Inicio ˄]()
+|[Inicio ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 ## Nueva base de datos
 
@@ -47,6 +47,8 @@ Si todo va bien, se creará la base de datos y mostrará el siguiente mensaje de
 Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 
 ![Jekyll](/img/database4.png)
+
+|[Inicio ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 
 ## Nuevo usuario
