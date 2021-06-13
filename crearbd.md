@@ -2,7 +2,7 @@
 
 Una vez cumplidos los requisitos previos, siga los siguientes pasos
 
-1. Para poder acceder al menú de EasyMariaDB, debe abrir cualquiera de las aplicaciones de LibreOffice, excepto Math. Para poder acceder desde Base, además, debe abrir un archivo .odb de Base, pero este no será el archivo de conexión a la base de datos, sino que que crearemos uno más adelante.
+1. Para poder acceder al menú de EasyMariaDB, debe abrir cualquiera de las aplicaciones de LibreOffice, excepto Math. Para poder acceder desde Base, además, debe abrir un archivo .odb de Base, pero este no será el archivo de conexión a la base de datos, sino que crearemos uno más adelante.
 2. Despliegue el menú **Herramientas > EasyMariaDB**
 3. Seleccione _Nueva base de datos_ para crear una [base de datos](#nueva-base-de-datos).
 4. Una vez creada la base de datos, cree al menos un [usuario](#nuevo-usuario) de la base de datos con los necesarios. Para poder crear tablas, es necesario tener al menos permisos _Avanzados_.
@@ -19,7 +19,7 @@ Una vez cumplidos los requisitos previos, siga los siguientes pasos
 
 ![Jekyll](/img/con3.png)
 
-  - Escriba el _Nombre de base de datos_ creada en el paso anteriro y los datos del _Servidor_ y _Puerto_. El nombre del servidor es generalmente el nombre del equyipo en que está instalado el servidor de base de datos; si accede desde el mismo equipo, puede escribir _localhost_. El puerto, es el que configuró en la instalación del servidor.
+  - Escriba el _Nombre de base de datos_ creada en los pasos anteriores y los datos del _Servidor_ y _Puerto_. El nombre del servidor es generalmente el nombre del equipo en el que está instalado el servidor de base de datos; si accede desde el mismo equipo, puede escribir _localhost_. El puerto, es el que configuró en la instalación del servidor.
 
 ![Jekyll](/img/con4.png)
 
