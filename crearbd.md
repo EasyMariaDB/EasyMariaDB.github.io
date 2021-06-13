@@ -33,4 +33,4 @@ Una vez cumplidos los requisitos previos, siga los siguientes pasos
 
 6. Abra el archivo .odb recien creado y comience a trabajar con su nueva base de datos.
 
-| [< Requisitos previos](requisitos.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) | [Utilidades proprcionadas por EasyMariaDB](utilidades.md) |
+| [< Requisitos previos](requisitos.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) | [Utilidades de EasyMariaDB](utilidades.md) |
