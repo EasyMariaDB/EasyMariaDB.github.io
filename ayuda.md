@@ -1,14 +1,14 @@
 # Ayuda de EasyMariaDB
 
-- [Requisitos previos](#requisitos-previos)
-- [Crear una base de datos y conectarse a ella](#crear-una-base-de-datos-y-conectarse-a-ella)
-- [Utilidades proprcionadas por EasyMariaDB](#utilidades-proporcionadas-por-easymariadb)
-  - [Crear una base de datos](#nueva-base-de-datos)
-  - [Crear un usuario](#nuevo-usuario)
-  - [Eliminar un usuario](#eliminar-usuario)
-  - [Cambiar la contraseña de un usuario (por un administrador)](#cambiar-la-contrase%C3%B1a-de-un-usuario-por-un-administrador)
-  - [Asignar permisos a un usuario](#asignar-permisos-a-un-usuario)
-  - [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
+- [Requisitos previos](requisitos.md)
+- [Crear una base de datos y conectarse a ella](crearbd.md)
+- [Utilidades proprcionadas por EasyMariaDB](utilidades.md)
+  - [Crear una base de datos](utilidades.md#nueva-base-de-datos)
+  - [Crear un usuario](utilidades.md#nuevo-usuario)
+  - [Eliminar un usuario](utilidades.md#eliminar-usuario)
+  - [Cambiar la contraseña de un usuario (por un administrador)](utilidades.md#cambiar-la-contrase%C3%B1a-de-un-usuario-por-un-administrador)
+  - [Asignar permisos a un usuario](utilidades.md#asignar-permisos-a-un-usuario)
+  - [Cambiar la contraseña propia](utilidades.md#cambiar-la-contrase%C3%B1a-propia)
 
 ## Requisitos previos
 
