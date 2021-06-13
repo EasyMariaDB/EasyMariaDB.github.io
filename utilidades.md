@@ -176,6 +176,6 @@ Haga clic en *Aceptar* para cerrar el mensaje. Corrija el error para poder conti
 El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Recomendamos reiniciarlo inmediatamente para evitar posibles errores.
 
 
-|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) |
+|[< Crear una base de datos y conectarse a ella](crearbd.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) |
 
 
