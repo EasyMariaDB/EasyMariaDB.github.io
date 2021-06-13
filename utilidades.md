@@ -22,6 +22,7 @@ Los datos que se tienen que proporcionar en este diálogo son:
 - **Usuario**: el nombre de un usuario que tenga permisos de administrador de MariaDB o MySQL.
 - **Contraseña**: la contraseña del usuario anterior.
 
+[Inicio ˄]()
 
 ## Nueva base de datos
 
