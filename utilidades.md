@@ -64,7 +64,7 @@ Rellene los datos del diálogo como sigue:
 - **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario. Si va a crear un usuario administrador, no es necesario que seleccione ninguna base de datos.
 - **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente. En [Asignar permisos a un usuario](asigna-ermisos-a-un-usuario) se explican los privilegios de cada una de  las distintas posibilidades.
 
-## #Eliminar usuario
+## Eliminar usuario
 
 Para eliminar un usuario, seleccione el menú **Herramientas > EasyMariaDB > Eliminar usuario**, o haga  clic sobre el botón *Eliminar usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -176,6 +176,6 @@ Haga clic en *Aceptar* para cerrar el mensaje. Corrija el error para poder conti
 El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Recomendamos reiniciarlo inmediatamente para evitar posibles errores.
 
 
-|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) | [Índice de la ayuda](#ayuda-de-easymariadb) |
+|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) |
 
 
