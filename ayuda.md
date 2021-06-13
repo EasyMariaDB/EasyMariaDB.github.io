@@ -1,7 +1,7 @@
 # Ayuda de EasyMariaDB
 
 - [Requisitos previos](#requisitos-previos)
-- [Crear una base de datos y conectarse a ella](#Ccear-una-base-de-datos-y-conectarse-a-ella)
+- [Crear una base de datos y conectarse a ella](#crear-una-base-de-datos-y-conectarse-a-ella)
 - [Utilidades proprcionadas por EasyMariaDB](#utilidades-proporcionadas-por-easymariadb)
   - [Crear una base de datos](#nueva-base-de-datos)
   - [Crear un usuario](#nuevo-usuario)
