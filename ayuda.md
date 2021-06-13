@@ -26,8 +26,11 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 
 Una vez cumplidos los requisitos previos, siga los siguientes pasos
 
-1. Cree una [base de datos](#nueva-base-de-datos)
-2. Cree al menos un [usuario](#nuevo-usuario) y conceda los [permisos](#asignar-permisos-a-un-usuario) necesarios. Para poder crear tablas, es necesario al menos tener permisos _Avanzados_.
+1. Cree una [base de datos](#nueva-base-de-datos).
+2. Cree al menos un [usuario](#nuevo-usuario) y conceda los [permisos](#asignar-permisos-a-un-usuario) necesarios. Para poder crear tablas, es necesario tener al menos permisos _Avanzados_.
+3. Conecte con la base de datos.
+  - Abra LibreOffice
+  - Seleccione
 
 ## Utilidades proporcionadas por EasyMariaDB
 
