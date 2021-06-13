@@ -14,3 +14,5 @@ Una vez cumplidos los requisitos previos, siga los siguientes pasos
   - Escriba el _Nombre de usuario_ y marque la casilla _Contraseña obligatoria_.
   - Decida si registrar o no la base de datos y qué hacer al finalizar el asistente. Haga clic en _Finalizar_ y guarde el archivo .odb en un lugar conveniente.
 6. Abra el archivo .odb recien creado y comience a trabajar con su nueva base de datos.
+
+| [< Requisitos previos](requisitos.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) | [Crear una base datos y conectarse a ella >](crearbd.md)|
