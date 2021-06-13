@@ -9,9 +9,7 @@
 - [Asignar permisos a un usuario](#asignar-permisos-a-un-usuario)
 - [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
 
-Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el nombre de usuario y la contraseña de un administrador.
-
-[Índice de la ayuda](#ayuda-de-easymariadb)
+Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el nombre de usuario y la contraseña de un administrador. Vea [Datos de conexión](#datos-de-conexión)
 
 ### Datos de conexión
 Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
@@ -23,8 +21,6 @@ Los datos que se tienen que proporcionar en este diálogo son:
 - **Puerto**: es el puerto a través del cual se realiza la conexión al servidor de bases de datos en el equipo en que está instalado. El puerto por defecto es *3306*.
 - **Usuario**: el nombre de un usuario que tenga permisos de administrador de MariaDB o MySQL.
 - **Contraseña**: la contraseña del usuario anterior.
-
-[Índice de la ayuda](#ayuda-de-easymariadb)
 
 
 ## Nueva base de datos
@@ -51,8 +47,6 @@ Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 
 ![Jekyll](/img/database4.png)
 
-[Índice de la ayuda](#ayuda-de-easymariadb)
-
 
 ## Nuevo usuario
 
@@ -69,9 +63,6 @@ Rellene los datos del diálogo como sigue:
 - **Contraseña**: escriba una contraseña para el usuario.
 - **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario. Si va a crear un usuario administrador, no es necesario que seleccione ninguna base de datos.
 - **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente. En [Asignar permisos a un usuario](asigna-ermisos-a-un-usuario) se explican los privilegios de cada una de  las distintas posibilidades.
-
-[Índice de la ayuda](#ayuda-de-easymariadb)
-
 
 ## #Eliminar usuario
 
@@ -94,8 +85,6 @@ Haga clic en *Sí* en este nuevo diálogo para eliminar definitivamente al usuar
 ![Jekyll](/img/UsuarioEliminado.png)
 
 Haga clic en *Aceptar* para cerrar el diálogo.
-
-[Índice de la ayuda](#ayuda-de-easymariadb)
 
 
 ## Cambiar la contraseña de un usuario (por un administrador)
@@ -120,8 +109,6 @@ Se mostrará un mensaje confirmando el cambio de contraseña.
 ![Jekyll](/img/PassConfirmation.png)
 
 Haga clic en *Aceptar* para cerrar el diálogo
-
-[Índice de la ayuda](#ayuda-de-easymariadb)
 
 
 ## Asignar permisos a un usuario
@@ -153,8 +140,6 @@ Los permisos que se pueden asignar son los siguientes:
 - **Lectura y escritura**. El usuario podrá leer los datos de la base de datos y también modificarlos, pero no podrá crear ni eliminar tablas o vistas.
 - **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizar otras tareas más avanzadas, como crear funciones, disparadores, etc.
 - **Administrador**. Todos los permisos en todas las bases de datos y en el servidor. Son los mismos permisos que los del usuario root, añadiendo que puede iniciar sesión desde cualquier equipo de la red o incluso de iternet si la red tiene acceso externo. Estos permisos deberían asignarse con mucho cuidado y el usuario que los posea debe proteger cuidadosamente su contraseña. Si no se tienen problemas para acceder como usuario root desde el equipo local, es mejor no asignarlo.
-
-[Índice de la ayuda](#ayuda-de-easymariadb)
 
 
 ## Cambiar la contraseña propia
@@ -190,9 +175,7 @@ Haga clic en *Aceptar* para cerrar el mensaje. Corrija el error para poder conti
 
 El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Recomendamos reiniciarlo inmediatamente para evitar posibles errores.
 
-[Índice de la ayuda](#ayuda-de-easymariadb)
 
-
-|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
+|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) | [Índice de la ayuda](#ayuda-de-easymariadb) |
 
 
