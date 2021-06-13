@@ -22,6 +22,13 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 
 [Índice de la ayuda](#ayuda-de-easymariadb)
 
+## Paso a paso
+
+Una vez cumplidos los requisitos previos, siga los siguientes pasos
+
+1. Cree una [base de datos](#nueva-base-de-datos)
+2. Cree al menos un [usuario](#nuevo-usuario) y conceda los [permisos](#asignar-permisos-a-un-usuario) necesarios. Para poder crear tablas, es necesario al menos tener permisos _Avanzados_.
+
 ## Utilidades proporcionadas por EasyMariaDB
 
 **EasyMariaDB** proporciona las siguientes utilidades:
