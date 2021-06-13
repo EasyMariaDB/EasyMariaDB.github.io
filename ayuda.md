@@ -10,6 +10,6 @@
   - [Asignar permisos a un usuario](utilidades.md#asignar-permisos-a-un-usuario)
   - [Cambiar la contraseña propia](utilidades.md#cambiar-la-contrase%C3%B1a-propia)
 
-|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) |
+|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) | [Requisitos previos >](requisitos.md)|
 
 
