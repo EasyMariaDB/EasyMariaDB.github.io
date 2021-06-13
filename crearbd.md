@@ -7,12 +7,30 @@ Una vez cumplidos los requisitos previos, siga los siguientes pasos
 3. Seleccione _Nueva base de datos_ para crear una [base de datos](#nueva-base-de-datos).
 4. Una vez creada la base de datos, cree al menos un [usuario](#nuevo-usuario) de la base de datos con los necesarios. Para poder crear tablas, es necesario tener al menos permisos _Avanzados_.
 5. Conecte con la nueva base de datos del siguiente modo:
-  - Seleccione el menú **Archivo > Nuevo > Base de datos**. Aparece el _Asistente de bases de datos_. 
+  - Seleccione el menú **Archivo > Nuevo > Base de datos**. Aparece el _Asistente de bases de datos_.
+
+![Jekyll](/img/ext1.png)
+
   - Seleccione _Conectar con una base de datos existente_ y en la lista desplegable, seleccione _MySQL_. Haga clic en _Siguiente_.
+
+![Jekyll](/img/ext2.png)
+
   - Seleccione _Conectar directamente_ y haga clic en _Siguiente_.
+
+![Jekyll](/img/ext3.png)
+
   - Escriba el _Nombre de base de datos_ creada en el paso anteriro y los datos del _Servidor_ y _Puerto_. El nombre del servidor es generalmente el nombre del equyipo en que está instalado el servidor de base de datos; si accede desde el mismo equipo, puede escribir _localhost_. El puerto, es el que configuró en la instalación del servidor.
+
+![Jekyll](/img/ext4.png)
+
   - Escriba el _Nombre de usuario_ y marque la casilla _Contraseña obligatoria_.
+
+![Jekyll](/img/ext5.png)
+
   - Decida si registrar o no la base de datos y qué hacer al finalizar el asistente. Haga clic en _Finalizar_ y guarde el archivo .odb en un lugar conveniente.
+
+![Jekyll](/img/ext6.png)
+
 6. Abra el archivo .odb recien creado y comience a trabajar con su nueva base de datos.
 
 | [< Requisitos previos](requisitos.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) | [Utilidades proprcionadas por EasyMariaDB](utilidades.md) |
