@@ -2,6 +2,7 @@
 - [Introducción](https://#introducción)
 - [¿Qué es EasyMariaDB](#qué-es-easymariadb)
 - [Entender la arquitectura cliente servidor](clienteservidor.md)
+- [Instalar la extensión](instalarextension.md)
 - [Ayuda de EasyMariaDB](ayuda.md)
 
 # Introducción
