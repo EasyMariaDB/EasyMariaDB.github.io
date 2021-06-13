@@ -22,7 +22,7 @@ Los datos que se tienen que proporcionar en este diálogo son:
 - **Usuario**: el nombre de un usuario que tenga permisos de administrador de MariaDB o MySQL.
 - **Contraseña**: la contraseña del usuario anterior.
 
-|[Inicio ˄](#utilidades-proporcionadas-por-easymariadb)|
+|[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 ## Nueva base de datos
 
@@ -48,7 +48,7 @@ Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 
 ![Jekyll](/img/database4.png)
 
-|[Inicio ˄](#utilidades-proporcionadas-por-easymariadb)|
+[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 
 ## Nuevo usuario
@@ -66,6 +66,8 @@ Rellene los datos del diálogo como sigue:
 - **Contraseña**: escriba una contraseña para el usuario.
 - **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario. Si va a crear un usuario administrador, no es necesario que seleccione ninguna base de datos.
 - **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente. En [Asignar permisos a un usuario](asigna-ermisos-a-un-usuario) se explican los privilegios de cada una de  las distintas posibilidades.
+
+[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 ## Eliminar usuario
 
@@ -89,6 +91,7 @@ Haga clic en *Sí* en este nuevo diálogo para eliminar definitivamente al usuar
 
 Haga clic en *Aceptar* para cerrar el diálogo.
 
+[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 ## Cambiar la contraseña de un usuario (por un administrador)
 
@@ -113,6 +116,7 @@ Se mostrará un mensaje confirmando el cambio de contraseña.
 
 Haga clic en *Aceptar* para cerrar el diálogo
 
+[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 ## Asignar permisos a un usuario
 
@@ -144,6 +148,7 @@ Los permisos que se pueden asignar son los siguientes:
 - **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizar otras tareas más avanzadas, como crear funciones, disparadores, etc.
 - **Administrador**. Todos los permisos en todas las bases de datos y en el servidor. Son los mismos permisos que los del usuario root, añadiendo que puede iniciar sesión desde cualquier equipo de la red o incluso de iternet si la red tiene acceso externo. Estos permisos deberían asignarse con mucho cuidado y el usuario que los posea debe proteger cuidadosamente su contraseña. Si no se tienen problemas para acceder como usuario root desde el equipo local, es mejor no asignarlo.
 
+[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 ## Cambiar la contraseña propia
 
@@ -177,6 +182,8 @@ Si hay algún error se mostrará un mensaje advirtiendo del error.
 Haga clic en *Aceptar* para cerrar el mensaje. Corrija el error para poder continuar.
 
 El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Recomendamos reiniciarlo inmediatamente para evitar posibles errores.
+
+[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 
 |[< Crear una base de datos y conectarse a ella](crearbd.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) |
