@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-time-machine
 title: "EasyMariaDB" 
 description: >
  Facilita la creación, desde LibreOffice, de bases de datos y usuarios de MariaDB y MySQL
