@@ -20,6 +20,8 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - Conocer el nombre de usuario y la contraseña de un usuario administrador del servidor, es decir que tenga al menos permisos para la creación de bases de datos y de usuarios.
 - Si los únicos datos de usuario administrador que conocemos son los del usuario *root*, en general, necesitamos tener acceso al mismo equipo en que está instalado el servidor (el usuario *root* no suele tener permiso de acceso remoto).
 
+[Índice de la ayuda](#ayuda-de-easymariadb)
+
 ## Utilidades proporcionadas por EasyMariaDB
 
 **EasyMariaDB** proporciona las siguientes utilidades:
@@ -32,6 +34,8 @@ Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
 - [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
 
 Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el nombre de usuario y la contraseña de un administrador.
+
+[Índice de la ayuda](#ayuda-de-easymariadb)
 
 ### Datos de conexión
 Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
