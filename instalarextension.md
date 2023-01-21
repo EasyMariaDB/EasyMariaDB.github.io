@@ -2,7 +2,7 @@
 
 Para descargar e instalar la extensión EasyMariaDB, realice los siguientes pasos:
 
-- Descargue el archivo comprimido con la [extensión EasyMariaDB](https://github.com/jucasaca/Extension/releases).
+- Descargue el archivo comprimido con la [extensión EasyMariaDB](https://github.com/jucasaca/Extension/releases/latest).
 
 ![Jekyll](/img/ext1.png)
 
