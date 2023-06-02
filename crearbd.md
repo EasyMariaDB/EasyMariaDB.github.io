@@ -1,3 +1,6 @@
+---
+title: EasyMariaDB
+---
 # Crear una base de datos y conectarse a ella
 
 Una vez cumplidos los requisitos previos, siga los siguientes pasos
