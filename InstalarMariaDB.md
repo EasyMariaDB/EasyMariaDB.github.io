@@ -1,3 +1,6 @@
+---
+title: EasyMariaDB
+---
 # Instalación de MaríaDB
 
 [Instalar MariaDB en Linux](#instalar-mariadb-en-linux)
