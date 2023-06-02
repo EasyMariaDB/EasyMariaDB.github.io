@@ -1,3 +1,6 @@
+---
+title: EasyMariaDB
+---
 # Descargar e instalar la extensión EasyMariaDB
 
 Para descargar e instalar la extensión EasyMariaDB, realice los siguientes pasos:
