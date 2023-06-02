@@ -1,3 +1,6 @@
+---
+title: EasyMariaDB
+---
 # Requisitos previos
 
 Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
