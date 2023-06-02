@@ -1,3 +1,6 @@
+---
+title: EasyMariaDB
+---
 # Ayuda de EasyMariaDB
 
 - [Requisitos previos](requisitos.md)
