@@ -1,3 +1,6 @@
+---
+title: EasyMariaDB
+---
 # Índice
 - [Introducción](https://#introducción)
 - [¿Qué es EasyMariaDB](#qué-es-easymariadb)
