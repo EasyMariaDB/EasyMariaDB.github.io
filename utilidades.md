@@ -1,3 +1,6 @@
+---
+title: EasyMariaDB
+---
 # Utilidades proporcionadas por EasyMariaDB
 
 **EasyMariaDB** proporciona las siguientes utilidades:
