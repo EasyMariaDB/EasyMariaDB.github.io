@@ -135,7 +135,7 @@ The license is shown below, you must check the option _I accept the termns in th
 
 ![Jekyll](/img/mariadbwin3.png)
 
-If you wish, in _Third party tools_ you can uncheck the option _Entire feature will be unavailable_ to not install the HeidiSQL program, we will not need it. Click _Next_.
+If you wish, in _Third party tools_ you can select the option _Entire feature will be unavailable_ to not install the HeidiSQL program, we will not need it. Click _Next_.
 ![Jekyll](/img/mariadbwin4.png)
 
 On the next screen, leave _Modify password for database user 'root'_ checked and type a password, repeat the password in the next text box. Remember the password, as you will need it later. In this step you should also check the option _Use UTF8 as default server's character set_. For added security, leave the _Enable access from remote machines for 'root' user_ option unchecked. Click _Next_.
