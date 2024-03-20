@@ -1,6 +1,9 @@
 ---
 title: EasyMariaDB
 ---
+
+| [Ver en español](index.md) | [View in English](EN_index.md) |
+
 # Índice
 - [Introducción](https://#introducción)
 - [¿Qué es EasyMariaDB](#qué-es-easymariadb)
