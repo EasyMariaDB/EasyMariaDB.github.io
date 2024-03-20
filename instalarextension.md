@@ -42,4 +42,4 @@ Para descargar e instalar la extensión EasyMariaDB, realice los siguientes paso
 
 La próxima vez que inicie LibreOffice tendrá en el menú _Herramientas_ una opción de menú nueva, _EasyMariaDB_, que al seleccionarla despliega varias opciones con las utilidades de EasyMariaDB
 
-|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB >](ayuda.md) |
+|[< Entender la arquitectura cliente servidor](clienteservidor.md) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB](ayuda.md) | [Ayuda de EasyMariaDB >](ayuda.md) |
