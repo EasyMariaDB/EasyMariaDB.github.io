@@ -186,3 +186,5 @@ lc_messages=es_ES
 - Restart the MariaDB service, or restart the computer, for the changes to take effect.
 
 From now on, MariaDB error messages should be displayed in Spanish.
+
+|[< Introduction](EN_index.md#introduction) | [Index](EN_index.md) | [EasyMariaDB help index](EN_ayuda.md) |[Install the extension >](EN_instalarextension.md) |
