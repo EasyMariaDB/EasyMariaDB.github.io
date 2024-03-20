@@ -5,7 +5,7 @@ title: EasyMariaDB
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
 # Index
-- [Introduction](https://#introduction)
+- [Introduction](#introduction)
 - [What is EasyMariaDB](#what-is-easymariadb)
 - [Understanding client-server architecture](EN_clienteservidor.md)
 - [Install the extension](EN_instalarextension.md)
