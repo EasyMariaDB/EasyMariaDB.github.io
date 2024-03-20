@@ -52,4 +52,4 @@ If the user has his own .odb file, he is free to create and modify his own forms
 
 This system provides more flexibility, but also more work to prepare forms and other elements.
 
-|[< Introduction](EN_index.md#introduction) | [Index](EN_index.md) | [Install the extension >](EN_instalarextension.md) |
+|[< Introduction](EN_index.md#introduction) | [Index](EN_index.md) | [EasyMariaDB help index](EN_ayuda.md) |[Install the extension >](EN_instalarextension.md) |
