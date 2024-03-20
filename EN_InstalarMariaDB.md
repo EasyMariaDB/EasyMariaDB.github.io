@@ -90,7 +90,7 @@ We will return to the Linux terminal.
 
 This completes the installation and configuration of MariaDB. Remember the username and password configured in these last steps as they will be needed to connect to MariaDB from LibreOffice.
 
-### Configuring MariaDB to display messages in Spanish
+### Configuring MariaDB to display messages in other languages
 
 Like almost all databases, including the built-in LibreOffice databases, MariaDB displays error messages in English, but can be configured to display messages in Spanish. To do this you need to modify, if it exists, a file called _my.cnf_. If the file does not exist, it must be created.
 
@@ -104,7 +104,7 @@ sudo nano /etc/mysql/my.cnf
 ```
 [mariadb]
 ```
-- In the [mariadb] section add the following line: 
+- In the [mariadb] section add the following line (change es_ES to the code of the desired language): 
 ```
 lc_messages=es_ES
 ```
@@ -157,9 +157,9 @@ The installation will start.
 
 When the installation is complete, a window appears informing you that the installation is complete. Click _Finish_ to finish the installation.
 
-### Configuring MariaDB to display messages in Spanish
+### Configuring MariaDB to display messages in other languages
 
-Like almost all databases, including the built-in LibreOffice databases, MariaDB displays error messages in English, but can be configured to display messages in Spanish. To do this you need to modify a file called _my.ini_, if it exists. If the file does not exist, it must be created.
+Like almost all databases, including the built-in LibreOffice databases, MariaDB displays error messages in English, but can be configured to display messages in other languages. To do this you need to modify a file called _my.ini_, if it exists. If the file does not exist, it must be created.
 
 The _my.ini_ file must be a plain text file, without formatting. It can be created or modified with *Notepad*. It can be located in several places, but in our experience, it is best to place it in the MariaDB data folder, usually located in "C:\Program Files\MariaDB XX.Xdata". To configure the file:
 - Using the file explorer navigate to "C:\Program Files\MariaDB XX.Xdata".
@@ -174,7 +174,7 @@ The _my.ini_ file must be a plain text file, without formatting. It can be creat
 ```
 [mariadb]
 ```
-- In the [mariadb] section add the following line: 
+- In the [mariadb] section add the following line (change es_ES to the code of the desired language): 
 ```
 lc_messages=es_ES
 ```
