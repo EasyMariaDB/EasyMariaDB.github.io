@@ -4,16 +4,18 @@ title: EasyMariaDB
 
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
-# Crear una base de datos y conectarse a ella
+# Create a database and connect to it
 
-Una vez cumplidos los requisitos previos, siga los siguientes pasos
+Once you have fulfilled the prerequisites, follow these steps
 
-1. Para poder acceder al menú de EasyMariaDB, debe abrir cualquiera de las aplicaciones de LibreOffice, excepto Math. Para poder acceder desde Base, además, debe abrir un archivo .odb de Base, pero este no será el archivo de conexión a la base de datos, sino que crearemos uno más adelante.
-2. Despliegue el menú **Herramientas > EasyMariaDB**
-3. Seleccione _Nueva base de datos_ para crear una [base de datos](#nueva-base-de-datos).
-4. Una vez creada la base de datos, cree al menos un [usuario](#nuevo-usuario) de la base de datos con los necesarios. Para poder crear tablas, es necesario tener al menos permisos _Avanzados_.
-5. Conecte con la nueva base de datos del siguiente modo:
-  - Seleccione el menú **Archivo > Nuevo > Base de datos**. Aparece el _Asistente de bases de datos_.
+1. In order to access the EasyMariaDB menu, you must open any of the LibreOffice applications, except Math. To be able to access from Base, you must also open a Base .odb file, but this will not be the database connection file, we will create one later.
+2. Pull down the **Tools > EasyMariaDB** menu.
+3. Select _New database_ to create a [database](#new-database).
+4. Once the database is created, create at least one [user](#new-user) of the database with the required ones. To be able to create tables, it is necessary to have at least _Advanced_ permissions.
+5. Connect to the new database as follows:
+  - Select the **File > New > Database** menu. The _Database Wizard_ appears.
+
+Translated with www.DeepL.com/Translator (free version)
 
 ![Jekyll](/img/con1.png)
 
@@ -39,4 +41,4 @@ Una vez cumplidos los requisitos previos, siga los siguientes pasos
 
 Abra el archivo .odb recién creado y comience a trabajar con su nueva base de datos.
 
-| [< Requisitos previos](requisitos.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) | [Utilidades de EasyMariaDB >](utilidades.md) |
+| [< Prerequisites](EN_requisitos.md) | [Indedx](EN_index.md#index) | [Help index](EN_ayuda.md) | [EasyMariaDB Utilities >](EN_utilidades.md) |
