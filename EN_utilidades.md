@@ -4,14 +4,14 @@ title: EasyMariaDB
 
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
-# Utilidades proporcionadas por EasyMariaDB
+# Utilities provided by EasyMariaDB
 
-**EasyMariaDB** proporciona las siguientes utilidades:
+**EasyMariaDB** provides the following utilities:
 
-- [Crear una base de datos](#nueva-base-de-datos)
-- [Crear un usuario](#nuevo-usuario)
-- [Eliminar un usuario](#eliminar-usuario)
-- [Cambiar la contraseña de un usuario (por un administrador)](#cambiar-la-contrase%C3%B1a-de-un-usuario-por-un-administrador)
+- [Create a database](#create-a-database)
+- [Create a user](#create-a-user)
+- [Delete a user](#delete-a-user)
+- [Change a user's password (by an administrator)](#cchange-a-user's-password-(by-an-administrator))
 - [Asignar permisos a un usuario](#asignar-permisos-a-un-usuario)
 - [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
 
@@ -30,7 +30,7 @@ Los datos que se tienen que proporcionar en este diálogo son:
 
 |[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
-## New database
+## Create a database
 
 Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -57,7 +57,7 @@ Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
 [Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 
-## Nuevo usuario
+## Create a user
 
 Para crear un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Nuevo usuario**, o haga  clic sobre el botón *Nuevo usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -75,7 +75,7 @@ Rellene los datos del diálogo como sigue:
 
 [Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
-## Eliminar usuario
+## Delete a user
 
 Para eliminar un usuario, seleccione el menú **Herramientas > EasyMariaDB > Eliminar usuario**, o haga  clic sobre el botón *Eliminar usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -99,7 +99,7 @@ Haga clic en *Aceptar* para cerrar el diálogo.
 
 [Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
-## Cambiar la contraseña de un usuario (por un administrador)
+## Change a user's password (by an administrator)
 
 Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña a un usuario**, o haga  clic sobre el botón *Cambiar contraseña a un usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
