@@ -4,9 +4,6 @@ title: EasyMariaDB
 
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
-
-| [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
-
 # Index
 - [Introducción](https://#introducción)
 - [¿Qué es EasyMariaDB](#qué-es-easymariadb)
@@ -17,31 +14,32 @@ title: EasyMariaDB
   - [Crear una base de datos y conectarse a ella](crearbd.md)
   - [Utilidades proporcionadas por EasyMariaDB](utilidades.md)
 
-# Introducción
-Al poco tiempo de comenzar a utilizar LibreOffice Base, descubrí que la base de datos HSQLDB incorporada, con el uso, daba errores debido a la corrupción del archivo .odb. Para evitarlo, en varias páginas web recomendaban hacer una base de datos separada.
+# Introduction
+Soon after I started using LibreOffice Base, I discovered that the built-in HSQLDB database, with use, was giving errors due to corruption of the .odb file. To avoid this, several web sites recommended making a separate database.
 
-Para solucionar los problemas de corrupción de las bases de datos HSQLDB, en LibreOffice comenzaron a incorporar la base de datos Firebird, pero, de momento, la integración de esta base de datos no es completa y está en modo experimental.
+To solve the HSQLDB database corruption problems, LibreOffice started to incorporate the Firebird database, but, at the moment, the integration of this database is not complete and is in experimental mode.
 
-Más tarde, también descubrí que estas bases de datos incorporadas son monousuario, es decir, que la base de datos no puede ser abierta por dos (o más) usuarios simultáneamente.
+Later, I also discovered that these built-in databases are single-user, that is, the database cannot be opened by two (or more) users simultaneously.
 
-¡No hay problema!, me dije, LibreOffice Base tiene infinitas posibilidades de conexión a servidores de bases de datos fiables y altamente probados. 
+No problem, I said to myself, LibreOffice Base has infinite possibilities to connect to reliable and highly tested database servers. 
 
-No tuve muchos problemas para instalar diferentes servidores de bases de datos en mi equipo para probar cuál me sería más útil. Enseguida me di cuenta de que, aunque la instalación y la conexión a los servidores había sido relativamente fácil, si quería crear una base de datos necesitaba crearla desde un programa de línea de comandos, en el que además tenía que escribir sentencias SQL, que en ese momento desconocía. Para rematar, además, las sentencias SQL no eran exactamente las mismas para unos servidores que para otros, unos con comillas dobles, otros con sencillas... Al final me desanimé y deje de utilizar Base.
+Translated with www.DeepL.com/Translator (free version)
 
-Hace poco, en un canal de Telegram, volví a ver las preguntas de siempre ¿Base es fiable? ¿Es multiusuario? Y la respuesta (errónea) fue no a las dos preguntas. Digo que la respuesta es errónea porque la fiabilidad y la capacidad multiusuario no las proporciona Base, sino el servidor de bases de datos al que se conecte, bien sea un servidor incorporado o uno externo.
+I had little trouble installing different database servers on my computer to test which one would be most useful to me. I soon realized that, although the installation and connection to the servers had been relatively easy, if I wanted to create a database I needed to create it from a command line program, in which I also had to write SQL statements, which at that time I did not know. To top it off, the SQL statements were not exactly the same for some servers than for others, some with double quotes, others with single ones... In the end I got discouraged and stopped using Base.
 
-Así que tomé la decisión de intentar demostrar que Base puede ser fiable y multiusuario y mi reto es que, además, la puesta en marcha de un servidor de base de datos sea fácil y la pueda realizar cualquier usuario sin necesidad de tener conocimientos avanzados. Por esta razón creé **EasyMariaDB**.
+Recently, in a Telegram channel, I saw again the usual questions: Is Base reliable? Is it multi-user? And the (wrong) answer was no to both questions. I say the answer is wrong because reliability and multi-user capability is not provided by Base, but by the database server you connect to, either a built-in server or an external one.
 
-
-# ¿Qué es EasyMariaDB?
-
-La herramienta **EasyMariaDB**, es una extensión de LibreOffice diseñada para facilitar la creación de bases de datos y de usuarios en un servidor MariaDB o MySQL desde LibreOffice, sin utilizar otros programas ni la consola de comandos.
-
-Ha sido diseñada para utilizarse con un servidor MariaDB o con un servidor MySQL. Ambos servidores son rápidos, fiables y seguros y tienen al menos una versión que es software libre y puede ser descargada e instalada libre y gratuitamente. Además LibreOffice Base tiene incorporado un conector nativo que facilita mucho la conexión a cualquiera de estos dos servidores.
-
-Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremos, como era nuestro objetivo, bases de datos fiables, seguras y multiusuario, y junto con la extensión **EsayMariaDB**, fácil de poner en funcionamiento.
-
-Tras [instalar la extensión](instalarextension.md), se genera una nueva opción, EasyMariaDB, en el menú Herramientas de todas las aplicaciones de LibreOffice, excepto Math. Este submenú da acceso a las [utilidades](utilidades.md) proporcionadas por EasyMariaDB
+So I made the decision to try to prove that Base can be reliable and multi-user and my challenge is that, in addition, setting up a database server is easy and can be done by any user without advanced knowledge. For this reason I created **EasyMariaDB**.
 
 
-|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Entender la arquitectura cliente servidor >](clienteservidor.md) |
+# What is EasyMariaDB?
+
+The **EasyMariaDB** tool is a LibreOffice extension designed to facilitate the creation of databases and users on a MariaDB or MySQL server from LibreOffice, without using other programs or the command console.
+
+It is designed to be used with either a MariaDB server or a MySQL server. Both servers are fast, reliable and secure and have at least one version that is free software and can be downloaded and installed free of charge. In addition LibreOffice Base has a built-in native connector that makes it very easy to connect to either of these two servers.
+
+By using either of these servers together with LibreOffice Base we will get, as was our goal, reliable, secure and multi-user databases, and together with the **EsayMariaDB** extension, easy to get up and running.
+
+After [installing the extension](EN_instalarextension.md), a new option, EasyMariaDB, is generated in the Tools menu of all LibreOffice applications except Math. This submenu gives access to the [utilities](EN_utilidades.md) provided by EasyMariaDB
+
+|[< Introducción](index.md#introduction) | [Índice](index.md#index) | [Entender la arquitectura cliente servidor >](EN_clienteservidor.md) |
