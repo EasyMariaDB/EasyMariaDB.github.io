@@ -71,7 +71,7 @@ Fill in the dialog data as follows:
 - **User**: type the name of the user to be created.
 - **Password**: type a password for the user.
 - **Database**: select the name of the database in which the user will have permissions. If you are creating an administrator user, you do not need to select a database.
-- **Permissions**: select the permissions the user will have on the database selected above. The privileges of each of the different possibilities are explained in [Assign permissions to a user](assign-permissions-to-a-user).
+- **Permissions**: select the permissions the user will have on the database selected above. The privileges of each of the different possibilities are explained in [Assign permissions to a user](#assign-permissions-to-a-user).
 
 |[Top ˄](#utilities-provided-by-easymariadb))|
 
