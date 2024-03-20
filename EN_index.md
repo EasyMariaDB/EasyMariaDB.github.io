@@ -23,8 +23,6 @@ Later, I also discovered that these built-in databases are single-user, that is,
 
 No problem, I said to myself, LibreOffice Base has infinite possibilities to connect to reliable and highly tested database servers. 
 
-Translated with www.DeepL.com/Translator (free version)
-
 I had little trouble installing different database servers on my computer to test which one would be most useful to me. I soon realized that, although the installation and connection to the servers had been relatively easy, if I wanted to create a database I needed to create it from a command line program, in which I also had to write SQL statements, which at that time I did not know. To top it off, the SQL statements were not exactly the same for some servers than for others, some with double quotes, others with single ones... In the end I got discouraged and stopped using Base.
 
 Recently, in a Telegram channel, I saw again the usual questions: Is Base reliable? Is it multi-user? And the (wrong) answer was no to both questions. I say the answer is wrong because reliability and multi-user capability is not provided by Base, but by the database server you connect to, either a built-in server or an external one.
@@ -42,4 +40,4 @@ By using either of these servers together with LibreOffice Base we will get, as 
 
 After [installing the extension](EN_instalarextension.md), a new option, EasyMariaDB, is generated in the Tools menu of all LibreOffice applications except Math. This submenu gives access to the [utilities](EN_utilidades.md) provided by EasyMariaDB
 
-|[< Introducción](index.md#introduction) | [Índice](index.md#index) | [Entender la arquitectura cliente servidor >](EN_clienteservidor.md) |
+|[< Introduction](index.md#introduction) | [Index](index.md#index) | [Understanding client-server architecture >](EN_clienteservidor.md) |
