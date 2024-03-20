@@ -1,6 +1,9 @@
 ---
 title: EasyMariaDB
 ---
+
+| [ Español ![Jekyll](/img/spain.png)](index.md) | [ English ![Jekyll](/img/england.png)](en_index.md) |
+
 # Index
 - [Introducción](https://#introducción)
 - [¿Qué es EasyMariaDB](#qué-es-easymariadb)
