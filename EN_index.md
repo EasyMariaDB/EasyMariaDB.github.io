@@ -12,7 +12,7 @@ title: EasyMariaDB
 - [EasyMariaDB Help](EN_ayuda.md)
   - [Prerequisites](EN_requisitos.md)
   - [Create a database and connect to it](EN_crearbd.md)
-  - [Utilities provided by EasyMariaDB](En_utilidades.md)
+  - [Utilities provided by EasyMariaDB](EN_utilidades.md)
 
 # Introduction
 Soon after I started using LibreOffice Base, I discovered that the built-in HSQLDB database, with use, was giving errors due to corruption of the .odb file. To avoid this, several web sites recommended making a separate database.
