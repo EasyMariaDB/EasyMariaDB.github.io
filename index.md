@@ -2,7 +2,7 @@
 title: EasyMariaDB
 ---
 
-| [ Español ![Jekyll](/img/spain.png)](index.md) | [ English ![Jekyll](/img/england.png)](EN_index.md) | [ English may ](EN_index.md) ![Jekyll](/img/england.png)
+| [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
 # Índice
 - [Introducción](https://#introducción)
