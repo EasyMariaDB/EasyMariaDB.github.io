@@ -15,42 +15,42 @@ title: EasyMariaDB
 - [Assign permissions to a user](#assign-permissions-to-a-user)
 - [Change own password](#change-own-password)
 
-Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el nombre de usuario y la contraseña de un administrador. Vea [Datos de conexión](#connection-data)
+To access all utilities, except *Change own password*, it is necessary to log in with the username and password of an administrator. See [Connection data](#connection-data)
 
 ### Connection data
-Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
+When running any of the utilities, except *Change own password*, a dialog with two steps is displayed. The first step, common to all of them, is a dialog asking for the data for the connection to the MariaDB/MySQL server.
 
 ![Jekyll](/img/database1.png)
 
-Los datos que se tienen que proporcionar en este diálogo son:
-- **Servidor**: escriba el nombre del servidor o la dirección IP del equipo que ejecuta el servidor de bases de datos. Si está accediendo desde el mismo equipo en el que está instalado el servidor de bases de datos, puede escribir *localhost*.
-- **Puerto**: es el puerto a través del cual se realiza la conexión al servidor de bases de datos en el equipo en que está instalado. El puerto por defecto es *3306*.
-- **Usuario**: el nombre de un usuario que tenga permisos de administrador de MariaDB o MySQL.
-- **Contraseña**: la contraseña del usuario anterior.
+The data to be provided in this dialog are:
+- **Server**: type the server name or IP address of the computer running the database server. If you are accessing from the same computer where the database server is installed, you can type *localhost*.
+- **Port**: is the port through which the connection to the database server is made on the computer on which it is installed. The default port is *3306*.
+- **User**: the name of a user who has MariaDB or MySQL administrator permissions.
+- **Password**: the password of the previous user.
 
 |[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 ## Create a database
 
-Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+To create a database select the **Tools > EasyMariaDB > New database** menu, or click on the *New database* button on the *EasyMariaDB* toolbar or on the *Extension* tab, if you have configured the *Tabbed* user interface.
 
-Aparecerá el diálogo *Nueva base de datos*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+The *New database* dialog will appear. Fill in the connection data as explained under [Connection data](#connection-data).
 
-Haga clic en el botón *Siguiente*. Aparecerá el segundo paso del diálogo. Rellene el cuadro de texto *Base de datos* con el nombre de la base de datos que se creará. 
+Click on the *Next* button. The second step of the dialog appears. Fill in the *Database* text box with the name of the database to be created. 
 
-Aunque se puede poner cualquier nombre, se recomienda no emplear espacios, acentos ni otros signos especiales (como, por ejemplo, la letra *ñ*); también se recomienda que el nombre no sea muy largo. 
+Although you can enter any name, it is recommended that you do not use spaces, accents or other special characters (e.g. the letter *ñ*); it is also recommended that the name not be too long. 
 
-No importa si escribe el nombre en mayúsculas o minúsculas, en el servidor siempre se guardará en minúsculas.
+It does not matter if you write the name in upper or lower case, it will always be saved in lower case on the server.
 
 ![Jekyll](/img/database2.png)
 
-Una vez haya rellenado el nombre, haga clic en *Aceptar*. 
+Once you have filled in the name, click *OK*. 
 
-Si todo va bien, se creará la base de datos y mostrará el siguiente mensaje de confirmación.
+If all goes well, the database will be created and the following confirmation message will be displayed.
 
 ![Jekyll](/img/database3.png)
 
-Si el nombre elegido ya existe en el servidor, se mostrará un mensaje de error.
+If the chosen name already exists on the server, an error message will be displayed.
 
 ![Jekyll](/img/database4.png)
 
