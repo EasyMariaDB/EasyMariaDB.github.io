@@ -14,4 +14,4 @@ In order to use **EasyMariaDB**, you must meet the following requirements:
 - Know the user name and password of an administrator user of the server, that is to say that he has at least permissions for the creation of databases and users.
 - If the only administrator user data we know are the *root* user, in general, we need to have access to the same computer where the server is installed (the *root* user does not usually have remote access permissions).
 
-| [< Help](EN_ayuda.md) | [Index](EN_index.md#index) | [Create a database and connect to it >](EN_crearbd.md)|
+| [< Help](EN_ayuda.md) | [Index](EN_index.md#index) | [EasyMariaDB help index](EN_ayuda.md) | [Create a database and connect to it >](EN_crearbd.md)|
