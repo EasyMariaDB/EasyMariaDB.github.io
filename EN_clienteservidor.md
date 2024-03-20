@@ -4,7 +4,7 @@ title: EasyMariaDB
 
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
-|[< Introeduction](index.md#introduction) | [Index](EN_index.md) | [EasyMariaDB help>](En_ayuda.md) |
+|[< Introduction](index.md#introduction) | [Index](EN_index.md) | [EasyMariaDB help>](En_ayuda.md) |
 
 # Understanding client-server architecture
 
