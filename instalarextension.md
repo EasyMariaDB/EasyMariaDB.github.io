@@ -1,6 +1,9 @@
 ---
 title: EasyMariaDB
 ---
+
+| [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
+
 # Descargar e instalar la extensión EasyMariaDB
 
 Para descargar e instalar la extensión EasyMariaDB, realice los siguientes pasos:

@@ -1,6 +1,9 @@
 ---
 title: EasyMariaDB
 ---
+
+| [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
+
 # Requisitos previos
 
 Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:

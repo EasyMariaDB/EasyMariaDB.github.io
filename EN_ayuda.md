@@ -2,6 +2,9 @@
 title: EasyMariaDB
 ---
 
+| [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
+
+
 | [Ver en español](index.md) | [View in English](EN_index.md) |
 
 # Ayuda de EasyMariaDB

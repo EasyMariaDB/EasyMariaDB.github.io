@@ -1,6 +1,9 @@
 ---
 title: EasyMariaDB
 ---
+
+| [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
+
 |[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB >](ayuda.md) |
 
 # Entender la arquitectura cliente servidor

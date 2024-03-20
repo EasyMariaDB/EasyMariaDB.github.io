@@ -1,6 +1,9 @@
 ---
 title: EasyMariaDB
 ---
+
+| [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
+
 # Utilidades proporcionadas por EasyMariaDB
 
 **EasyMariaDB** proporciona las siguientes utilidades:
