@@ -4,7 +4,7 @@ title: EasyMariaDB
 
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
-# Instalación de MaríaDB
+# Instalación de MariaDB
 
 [Instalar MariaDB en Linux](#instalar-mariadb-en-linux)
 
