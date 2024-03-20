@@ -5,14 +5,14 @@ title: EasyMariaDB
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
 # Index
-- [Introducción](https://#introducción)
-- [¿Qué es EasyMariaDB](#qué-es-easymariadb)
-- [Entender la arquitectura cliente servidor](clienteservidor.md)
-- [Instalar la extensión](instalarextension.md)
-- [Ayuda de EasyMariaDB](ayuda.md)
-  - [Requisitos previos](requisitos.md)
-  - [Crear una base de datos y conectarse a ella](crearbd.md)
-  - [Utilidades proporcionadas por EasyMariaDB](utilidades.md)
+- [Introduction](https://#introduction)
+- [What is EasyMariaDB](#what-is-easymariadb)
+- [Understanding client-server architecture](EN_clienteservidor.md)
+- [Install the extension](EN_instalarextension.md)
+- [EasyMariaDB Help](EN_ayuda.md)
+  - [Prerequisites](EN_requisitos.md)
+  - [Create a database and connect to it](EN_crearbd.md)
+  - [Utilities provided by EasyMariaDB](En_utilidades.md)
 
 # Introduction
 Soon after I started using LibreOffice Base, I discovered that the built-in HSQLDB database, with use, was giving errors due to corruption of the .odb file. To avoid this, several web sites recommended making a separate database.
