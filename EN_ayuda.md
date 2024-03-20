@@ -2,6 +2,8 @@
 title: EasyMariaDB
 ---
 
+| [Ver en español](index.md) | [Ver en inglés](EN_index.md) |
+
 # Ayuda de EasyMariaDB
 
 - [Prerequisites](EN_requisitos.md)
