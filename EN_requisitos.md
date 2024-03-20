@@ -4,14 +4,14 @@ title: EasyMariaDB
 
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
-# Requisitos previos
+# Prerequisites
 
-Para poder utilizar **EasyMariaDB**, debe cumplir con los siguientes requisitos:
+In order to use **EasyMariaDB**, you must meet the following requirements:
 
-- Tener instalada una versión reciente de LibreOffice. [[Descarga de LibreOffice]](https://es.libreoffice.org/descarga/libreoffice/)
-- Tener instalada la extensión **EasyMariaDB**. [[Descarga e instalación de EasyMariaDB]](instalarextension.md)
-- Tener instalado un servidor de bases de datos MariaDB o MySQL y tener acceso al mismo. [[Instalar MariaDB]](InstalarMariaDB.md)
-- Conocer el nombre de usuario y la contraseña de un usuario administrador del servidor, es decir que tenga al menos permisos para la creación de bases de datos y de usuarios.
-- Si los únicos datos de usuario administrador que conocemos son los del usuario *root*, en general, necesitamos tener acceso al mismo equipo en que está instalado el servidor (el usuario *root* no suele tener permiso de acceso remoto).
+- Have a recent version of LibreOffice installed. [Download LibreOffice]](https://www.libreoffice.org/download/download-libreoffice/)
+- Have the **EasyMariaDB** extension installed. [Download and install EasyMariaDB]](EN_installarextension.md).
+- Have a MariaDB or MySQL database server installed and have access to it. [[Install MariaDB]](EN_installMariaDB.md)
+- Know the user name and password of an administrator user of the server, that is to say that he has at least permissions for the creation of databases and users.
+- If the only administrator user data we know are the *root* user, in general, we need to have access to the same computer where the server is installed (the *root* user does not usually have remote access permissions).
 
-| [< Ayuda](ayuda.md) | [Índice](index.md#índice) | [Índice de la ayuda](ayuda.md) | [Crear una base datos y conectarse a ella >](crearbd.md)|
+| [< Help](EN_ayuda.md) | [Index](index.md#index) | [Create a database and connect to it >](EN_crearbd.md)|
