@@ -39,4 +39,4 @@ Once you have fulfilled the prerequisites, follow these steps
 
 Open the newly created .odb file and start working with your new database.
 
-| [< Prerequisites](EN_requisitos.md) | [Index](EN_index.md#index) | [Help index](EN_ayuda.md) | [EasyMariaDB Utilities >](EN_utilidades.md) |
+| [< Prerequisites](EN_requisitos.md) | [Index](EN_index.md#index) | [EasyMariaDB help index](EN_ayuda.md) | [EasyMariaDB Utilities >](EN_utilidades.md) |
