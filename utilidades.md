@@ -192,6 +192,6 @@ El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Re
 [Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
 
-|[< Crear una base de datos y conectarse a ella](crearbd.md) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB](ayuda.md) | [Índice de la ayuda](ayuda.md) |
+|[< Crear una base de datos y conectarse a ella](crearbd.md) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB](ayuda.md) |
 
 
