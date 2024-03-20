@@ -8,13 +8,9 @@ title: EasyMariaDB
 
 Para descargar e instalar la extensión EasyMariaDB, realice los siguientes pasos:
 
-- Descargue el archivo comprimido con la [extensión EasyMariaDB](https://github.com/jucasaca/Extension/releases/latest).
+- Descargue el archivo .oxt de la [extensión EasyMariaDB](https://github.com/jucasaca/Extension/releases/latest).
 
 ![Jekyll](/img/ext1.png)
-
-- Descomprima el archivo descargado y extraiga el archivo .oxt de la extensión.
-
-![Jekyll](/img/ext2.png)
 
 - Abra LibreOffice y vaya a **Herramientas > Gestor de extensiones**
 
