@@ -45,13 +45,13 @@ Below are a series of questions related to MariaDB security. It is best to answe
 
 Once the program is finished we will have our MariaDB installation a little more secure.
 
-Although I had promised not to have to deal with SQL commands, due to the identification system by *sockets*, to be able to connect to the MariaDB server from LibreOffice, we need to configure a user with administrator permissions. Don't worry, we will have to do this only once.
+Although I had promised not to have to deal with SQL commands, due to the identification system by *sockets*, to be able to connect to the MariaDB server, we need to configure a user with administrator permissions. Don't worry, we will have to do this only once.
 
 In a terminal screen, type:
 ```
 sudo mariadb
 ```
-Al pulsar *Intro*, tras un mensaje de bienvenida, aparece el indicador *MariaDB [(none)]>*, indicando que ahora nos encontramos en el terminal de MariaDB.
+When you press *Enter*, after a welcome message, the *MariaDB [(none)]>* prompt appears, indicating that you are now in the MariaDB terminal.
 
 ![Jekyll](/img/mariadb5.png)
 
