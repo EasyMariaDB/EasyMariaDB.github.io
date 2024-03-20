@@ -4,9 +4,6 @@ title: EasyMariaDB
 
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
-
-| [Ver en español](index.md) | [View in English](EN_index.md) |
-
 # EasyMariaDB Help
 
 - [Prerequisites](EN_requisitos.md)
