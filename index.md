@@ -41,4 +41,4 @@ Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremo
 Tras [instalar la extensión](instalarextension.md), se genera una nueva opción, EasyMariaDB, en el menú Herramientas de todas las aplicaciones de LibreOffice, excepto Math. Este submenú da acceso a las [utilidades](utilidades.md) proporcionadas por EasyMariaDB
 
 
-|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Entender la arquitectura cliente servidor >](clienteservidor.md) |
+|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB](ayuda.md) | [Entender la arquitectura cliente servidor >](clienteservidor.md) |
