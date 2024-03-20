@@ -7,7 +7,7 @@ title: EasyMariaDB
 
 | [Ver en español](index.md) | [View in English](EN_index.md) |
 
-# Ayuda de EasyMariaDB
+# EasyMariaDB Help
 
 - [Prerequisites](EN_requisitos.md)
 - [Create a database and connect to it](EN_crearbd.md)
