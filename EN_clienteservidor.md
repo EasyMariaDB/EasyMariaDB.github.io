@@ -4,52 +4,52 @@ title: EasyMariaDB
 
 | [ Español ](index.md) ![Jekyll](/img/spain.png) | [ English ](EN_index.md) ![Jekyll](/img/england.png)
 
-|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB >](ayuda.md) |
+|[< Introeduction](index.md#introduction) | [Index](EN_index.md) | [EasyMariaDB help>](En_ayuda.md) |
 
-# Entender la arquitectura cliente servidor
+# Understanding client-server architecture
 
-## Servidor y cliente
+## Server and client
 
-Si desde Base conectamos con un servidor de base de datos MariaDB o MySQL, estamos empleando la arquitectura cliente servidor.
+If from Base we connect to a MariaDB or MySQL database server, we are using the client server architecture.
 
-Sin querer ser muy técnico ni preciso en las explicaciones, la arquitectura cliente servidor consiste en dos partes, una parte, la parte servidora, proporciona unos servicios y otra parte, la parte cliente los consume.
+Without wanting to be very technical or precise in the explanations, the client server architecture consists of two parts, one part, the server part, provides some services and another part, the client part, consumes them.
 
-En nuestro caso, MaríaDB o MySQL actúan como la parte servidora y proporcionan unos servicios; el primero que vemos más claramente y, por tanto, más fácil de entender, es el acceso a los datos, pero proporcionan otros servicios, como, por ejemplo, la gestión de usuarios o de los permisos de acceso a los datos.
+In our case, MariaDB or MySQL act as the server part and provide some services; the first one that we see more clearly and, therefore, easier to understand, is the access to the data, but they provide other services, as, for example, the management of users or of the permissions of access to the data.
 
-Por otro lado, la parte cliente, en nuestro caso Base, consume los servicios proporcionados por el servidor. Base pide a la parte servidora los datos, esta se los proporciona y Base los muestra, bien sea en una tabla directamente o a través de consultas, formularios o informes. Además, con los servicios de gestión de usuarios y permisos, puede que el servidor solo proporcione algunos datos o ninguno, o que permita modificar los datos o solo leerlos.
+On the other hand, the client side, in our case Base, consumes the services provided by the server. Base asks the server for the data, the server provides it and Base displays it, either in a table directly or through queries, forms or reports. In addition, with user and permissions management services, the server may only provide some data or none at all, or allow data to be modified or only read.
 
-Ser servidor o cliente no depende de que una parte esté instalada en un equipo configurado como servidor y la otra no, de hecho ambas partes pueden estar instaladas en el mismo equipo y este puede ser un ordenador de escritorio normal o un portátil. Como he dicho antes, la parte servidora es la que proporciona unos servicios y la cliente la que los consume, independientemente de donde esté instalada cada una de las partes.
+Being a server or a client does not depend on one part being installed on a computer configured as a server and the other not, in fact both parts can be installed on the same computer and this can be a normal desktop computer or a laptop. As I said before, the server part is the one that provides some services and the client part is the one that consumes them, independently of where each part is installed.
 
-## El lado servidor
+## The server side
 
-En nuestro caso el servidor va a ser un servidor de base de datos MariaDB o un servidor MySQL. 
+In our case the server is going to be a MariaDB database server or a MySQL server. 
 
-Como hemos visto antes, puede estar instalado en cualquier equipo. Si lo único que necesitamos es una base de datos fiable y que nos proporcione otros servicios como gestión de usuarios o permisos de acceso a los datos, podemos instalar MariaDB o MySQL en el mismo equipo en el que vamos a trabajar. El consumo de recursos de cualquiera de los dos servidores es bajo y no se necesita un equipo especialmente potente.
+As we have seen before, it can be installed on any computer. If all we need is a reliable database that provides us with other services such as user management or data access permissions, we can install MariaDB or MySQL on the same computer where we are going to work. The resource consumption of either server is low and you do not need a particularly powerful computer.
 
-Si además necesitamos que nuestra base de datos sea multiusuario, la instalación del servidor de bases de datos elegido, la tenemos que hacer en un equipo al que tengan acceso todos los usuarios que necesiten acceder a los datos. Como ya hemos visto no es necesario que sea un equipo especialmente potente (a no ser que sean cientos de usuarios los que se van a conectar). Por ejemplo en un pequeño negocio con cuatro o cinco ordenadores, se puede hacer la instalación en cualquiera de los ordenadores y el resto acceder a los datos. Lo único necesario es que, como es lógico, el equipo que ejecuta el servidor debe estar encendido para poder acceder a los datos.
+If we also need our database to be multi-user, the installation of the chosen database server must be done on a computer to which all the users who need to access the data have access. As we have already seen, it does not need to be a particularly powerful computer (unless hundreds of users are going to connect). For example, in a small business with four or five computers, the installation can be done on any of the computers and the rest can access the data. The only thing necessary is that, of course, the computer running the server must be turned on in order to access the data.
 
-## El lado cliente
+## The client side
 
-Nuestro lado cliente serán uno o varios archivos .odb de Base configurados para conectarse con el servidor. 
+Our client side will be one or more Base .odb files configured to connect to the server. 
 
-Tenemos que entender que, mientras que los datos, es decir las tablas y su contenido (y también las vistas), residen en el servidor, el resto de los elementos (formularios, consultas e informes) se guardan en el archivo .odb de Base. Por tanto, si accidentalmente borramos o se corrompe el archivo .odb, perderemos los informes, las consultas y los formularios, pero no perderemos los datos: ¡los datos están a salvo en el servidor!, siempre que, claro está, el servidor esté íntegro. Esto da cierta seguridad.
+We have to understand that while the data, i.e. the tables and their contents (and also the views), reside on the server, the rest of the elements (forms, queries and reports) are stored in the Base .odb file. Therefore, if we accidentally delete or corrupt the .odb file, we will lose the reports, queries and forms, but we will not lose the data: the data is safe on the server, provided, of course, that the server is intact. This provides a certain degree of security.
 
-También es importante saber que mientras que en los archivos de bases de datos HSQL o Firebird incorporadas, hay que guardar las tablas y también el archivo .odb para que los datos se guarden efectivamente en la base de datos (y si no los guardamos podemos perder los datos de toda una sesión), en el caso de conectarse a los servidores MariaDB o MySQL, los datos se guardan automáticamente después de la edición de cada registro, al movernos a otro registro, por lo que no es necesario guardar las tablas o el archivo .odb, solo es necesario guardar el último registro editado, con lo cual en caso de un fallo inesperado de cualquier tipo, la pérdida de trabajo (de datos) sería ínfima.
+It is also important to know that while in the built-in HSQL or Firebird database files, you have to save the tables and also the .odb file so that the data is effectively saved in the database (and if you do not save them you can lose the data of a whole session), in the case of connecting to MariaDB or MySQL servers, the data is automatically saved after the edition of each record, when you move to another record, so you do not need to save the tables or the . odb file, it is only necessary to save the last edited record, so in case of an unexpected failure of any kind, the loss of work (data) would be minimal.
 
-Anteriormente he dicho que en el lado cliente podemos tener uno o varios archivos .odb. En realidad, para ser más precisos, las posibilidades son que varios o todos los usuarios accedan a través de un mismo archivo .odb o que cada usuario tenga su propio archivo .odb. Veamos las diferencias entre uno y otro caso.
+Earlier I said that on the client side we can have one or several .odb files. Actually, to be more precise, the possibilities are that several or all users access through the same .odb file or that each user has its own .odb file. Let's look at the differences between the two cases.
 
-### Un solo archivo .odb de Base para varios usuarios
+### A single Base .odb file for multiple users
 
-Si queremos que varios o todos los usuarios utilicen el mismo archivo, este debe estar en una ubicación de la red a la que puedan acceder los usuarios que lo necesiten.
+If the same file is to be used by several or all users, it must be in a location on the network that can be accessed by the users who need it.
 
-En este caso, al compartir el mismo archivo, los usuarios compartirán los mismos formularios, informes y consultas, pero solamente el primer usuario que acceda el archivo podrá modificar dichos elementos. Esto no debería ser un problema, puesto que una vez creados los formularios, consultas e informes que se necesiten, normalmente no será necesario modificarlos. De hecho, mi recomendación en este caso es que, una vez creados todos los elementos necesarios, el archivo se configure como de solo lectura para todos los usuarios. 
+In this case, by sharing the same file, users will share the same forms, reports and queries, but only the first user to access the file will be able to modify these items. This should not be a problem, since once you have created the forms, queries and reports you need, you will normally not need to modify them. In fact, my recommendation in this case is that, once all the necessary elements have been created, the file should be set to read-only for all users. 
 
-El hecho de que el archivo sea de solo lectura, supone que el usuario no podrá modificar el archivo .odb, y por tanto no podrá modificar ni los informes, ni los formularios, ni las consultas, pero sí que podrá modificar los datos, ya que estos residen en el servidor y no en el archivo .odb.
+The fact that the file is read-only means that the user will not be able to modify the .odb file, and therefore will not be able to modify the reports, forms or queries, but will be able to modify the data, since it resides on the server and not in the .odb file.
 
-### Cada usuario tiene su propio archivo .odb de Base
+### Each user has his or her own Base .odb file
 
-Si el usuario posee su propio archivo .odb, es libre de crear y modificar sus propios formularios, informes y consultas, que serán diferentes de los de otro usuario; pero los datos, que, como sabemos, residen en el servidor, serán los mismos para todos los usuarios. Esta forma de acceder a los datos es conveniente cuando cada usuario tiene unas necesidades diferentes, por ejemplo un usuario de la oficina de personal puede crear sus propios elementos para el acceso a las tablas de empleados, salarios y nóminas, etc, mientras que el encargado de contabilidad puede crear los suyos para acceso a facturación, cuentas bancarias, etc.
+If the user has his own .odb file, he is free to create and modify his own forms, reports and queries, which will be different from those of another user; but the data, which, as we know, resides on the server, will be the same for all users. This way of accessing data is convenient when each user has different needs, for example a user in the personnel office can create his own elements for access to employee tables, salaries and payrolls, etc, while the accounting manager can create his own elements for access to invoicing, bank accounts, etc.
 
-Este sistema proporciona más flexibilidad, pero también más trabajo para preparar formularios y demás elementos.
+This system provides more flexibility, but also more work to prepare forms and other elements.
 
-|[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Instalar la extensión >](instalarextension.md) |
+|[< Introduction](EN_index.md#introduction) | [Index](EN_index.md) | [Install the extension >](EN_instalarextension.md) |
