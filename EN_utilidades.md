@@ -30,7 +30,7 @@ Los datos que se tienen que proporcionar en este diálogo son:
 
 |[Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
-## Nueva base de datos
+## New database
 
 Para crear una base de datos seleccione el menú **Herramientas > EasyMariaDB > Nueva base de datos**, o haga  clic sobre el botón *Nueva base de datos* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
