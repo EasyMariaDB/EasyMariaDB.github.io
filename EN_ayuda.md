@@ -2,7 +2,7 @@
 title: EasyMariaDB
 ---
 
-| [Ver en español](index.md) | [Ver en inglés](EN_index.md) |
+| [Ver en español](index.md) | [View in English](EN_index.md) |
 
 # Ayuda de EasyMariaDB
 
