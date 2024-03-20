@@ -59,135 +59,134 @@ If the chosen name already exists on the server, an error message will be displa
 
 ## Create a user
 
-Para crear un usuario nuevo, seleccione el menú **Herramientas > EasyMariaDB > Nuevo usuario**, o haga  clic sobre el botón *Nuevo usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+To create a new user, select the **Tools > EasyMariaDB > New User** menu, or click on the *New User* button on the *EasyMariaDB* toolbar or on the *Extension* tab, if you have configured the *Tabbed* user interface.
 
-Aparecerá el diálogo *Nuevo usuario*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+The *New User* dialog will appear. Fill in the connection data as explained in [Connection data](#connection-data).
 
-Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
+Click *Next* to display the second step of the dialog.
 
 ![Jekyll](/img/NuevoUsuario.png)
 
-Rellene los datos del diálogo como sigue:
-- **Usuario**: escriba el nombre del usuario que se va a crear.
-- **Contraseña**: escriba una contraseña para el usuario.
-- **Base de datos**: seleccione el nombre de la base de datos en la que tendrá permisos el usuario. Si va a crear un usuario administrador, no es necesario que seleccione ninguna base de datos.
-- **Permisos**: seleccione los permisos que tendrá el usuario en la base de datos seleccionada anteriormente. En [Asignar permisos a un usuario](asigna-ermisos-a-un-usuario) se explican los privilegios de cada una de  las distintas posibilidades.
+Fill in the dialog data as follows:
+- **User**: type the name of the user to be created.
+- **Password**: type a password for the user.
+- **Database**: select the name of the database in which the user will have permissions. If you are creating an administrator user, you do not need to select a database.
+- **Permissions**: select the permissions the user will have on the database selected above. The privileges of each of the different possibilities are explained in [Assign permissions to a user](assign-permissions-to-a-user).
 
 |[Top ˄](#utilities-provided-by-easymariadb))|
 
 ## Delete a user
 
-Para eliminar un usuario, seleccione el menú **Herramientas > EasyMariaDB > Eliminar usuario**, o haga  clic sobre el botón *Eliminar usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+To delete a user, select the **Tools > EasyMariaDB > Delete user** menu, or click on the *Delete user* button on the *EasyMariaDB* toolbar or on the *Extension* tab, if you have configured the *Tabbed* user interface.
 
-Aparecerá el diálogo *Eliminar usuario*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+The *Remove User* dialog will appear. Fill in the connection data as explained in [Connection data](#connection-data).
 
-Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
+Click *Next* to display the second step of the dialog.
 
 ![Jekyll](/img/EliminarUsuario.png)
 
-En el campo *Usuario*, seleccione el nombre del usuario a eliminar en la lista desplegable.
+In the *User* field, select the name of the user to delete from the drop-down list.
 
-Haga clic en *Aceptar*. Un nuevo diálogo pedirá confirmación.
+Click *OK*. A new dialog will ask for confirmation.
 
 ![Jekyll](/img/EliminarUsuarioConfirmacion.png)
 
-Haga clic en *Sí* en este nuevo diálogo para eliminar definitivamente al usuario. Se mostrará un mensaje confirmando la eliminación.
-
+Click *Yes* in this new dialog to permanently delete the user. A message confirming the deletion will be displayed.
 ![Jekyll](/img/UsuarioEliminado.png)
 
-Haga clic en *Aceptar* para cerrar el diálogo.
+Click *OK* to close the dialog.
 
 |[Top ˄](#utilities-provided-by-easymariadb))|
 
 ## Change a user's password (by an administrator)
 
-Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña a un usuario**, o haga  clic sobre el botón *Cambiar contraseña a un usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+Select the menu **Tools > EasyMariaDB > Change user password**, or click on the *Change user password* button on the *EasyMariaDB* toolbar or on the *Extension* tab, if you have configured the user interface *On tabs*.
 
-Aparecerá el diálogo *Cambiar contraseña*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+The *Change Password* dialog will appear. Fill in the connection data as explained in [Connection data](#connection-data).
 
-Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
+Click *Next* to display the second step of the dialog.
 
 ![Jekyll](/img/pass2.png)
 
-Rellene los datos del diálogo como sigue:
-- **Usuario**: seleccione el nombre del usuario al que se va a modificar la contraseña.
-- **Contraseña**: escriba una contraseña para el usuario.
-- **Repita contraseña**: vuelva a escribir la contraseña para el usuario.
+Fill in the dialog data as follows:
+- **User**: select the name of the user whose password is to be changed.
+- **Password**: enter a password for the user.
+- **Repeat password**: retype the password for the user.
 
-Una vez rellenados los datos, haga clic en *Aceptar* para cambiar la contraseña.
+Once the data has been filled in, click *OK* to change the password.
 
-Se mostrará un mensaje confirmando el cambio de contraseña.
+A message will be displayed confirming the password change.
 
 ![Jekyll](/img/PassConfirmation.png)
 
-Haga clic en *Aceptar* para cerrar el diálogo
+Click on *OK* to close the dialog box
 
 |[Top ˄](#utilities-provided-by-easymariadb))|
 
 ## Assign permissions to a user
 
-Seleccione el menú **Herramientas > EasyMariaDB > Permisos de usuario**, o haga  clic sobre el botón *Permisos de usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+Select the menu **Tools > EasyMariaDB > User Permissions**, or click on the *User Permissions* button on the *EasyMariaDB* toolbar or on the *Extension* tab, if you have configured the *Tabbed* user interface.
 
-Aparecerá el diálogo *Permisos de usuario*. Rellene los datos de conexión como se explicó en [Datos de conexión](#datos-de-conexión).
+The *User Permissions* dialog will appear. Fill in the connection details as explained in [Connection data](#connection-data).
 
-Haga clic en *Siguiente* para mostrar el segundo paso del diálogo.
-
-![Jekyll](/img/Privileges2.png)
-
-Rellene los datos del diálogo como sigue:
-- **Usuario**: seleccione el nombre del usuario al que se van a asignar o modificar los permisos.
-- **Base de datos**: seleccione la base de datos para la que se otorgarán los permisos. Si los permisos que se van a asignar son de *Administrador*, no es necesario seleccionar ninguna base de datos
-- **Permisos**: seleccione los permisos que se otorgarán al usuario.
-
-Una vez rellenados los datos, haga clic en *Aceptar* para confirmar el cambio de permisos.
-
-Se mostrará un nuevo mensaje confirmando el cambio de permisos.
+Click *Next* to display the second step of the dialog.
 
 ![Jekyll](/img/Privileges2.png)
 
-Haga clic en *Aceptar* para cerrar el mensaje.
+Fill in the dialog data as follows:
+- **User**: select the name of the user to whom permissions are to be assigned or modified.
+- **Database**: select the database for which permissions will be granted. If the permissions to be assigned are *Administrator*, it is not necessary to select a database.
+- **Permissions**: select the permissions to be granted to the user.
 
-Los permisos que se pueden asignar son los siguientes:
-- **Ninguno (eliminar)**. Se eliminarán todos los permisos que tenga el usuario en la base de datos seleccionada.
-- **Solo lectura**. El usuario podrá leer los datos de la base de datos, pero no podrá modificarlos.
-- **Lectura y escritura**. El usuario podrá leer los datos de la base de datos y también modificarlos, pero no podrá crear ni eliminar tablas o vistas.
-- **Avanzado**. El usuario tendrá todos los permisos en la base de datos seleccionada, además de leer y modificar los datos podrá crear tablas e índices y realizar otras tareas más avanzadas, como crear funciones, disparadores, etc.
-- **Administrador**. Todos los permisos en todas las bases de datos y en el servidor. Son los mismos permisos que los del usuario root, añadiendo que puede iniciar sesión desde cualquier equipo de la red o incluso de iternet si la red tiene acceso externo. Estos permisos deberían asignarse con mucho cuidado y el usuario que los posea debe proteger cuidadosamente su contraseña. Si no se tienen problemas para acceder como usuario root desde el equipo local, es mejor no asignarlo.
+Once the data has been filled in, click *OK* to confirm the change of permissions.
+
+A new message will be displayed confirming the permissions change.
+
+![Jekyll](/img/Privileges2.png)
+
+Click *OK* to close the message.
+
+The permissions that can be assigned are as follows:
+- **None (delete)**. All permissions that the user has on the selected database will be removed.
+- **Read only**. The user will be able to read the data in the database, but will not be able to modify it.
+- **Read and write**. The user will be able to read data from the database and also modify it, but will not be able to create or delete tables or views.
+- **Advanced**. The user will have all the permissions in the selected database, in addition to reading and modifying the data he/she will be able to create tables and indexes and perform other more advanced tasks, such as creating functions, triggers, etc.
+- **Administrator**. All permissions on all databases and on the server. These are the same permissions as those of the root user, adding that he can log in from any computer on the network or even from iternet if the network has external access. These permissions should be assigned very carefully and the user who has them must carefully protect his password. If you have no problems logging in as the root user from the local computer, it is best not to assign it.
 
 |[Top ˄](#utilities-provided-by-easymariadb))|
 
 ## Change own password
 
-Mientras que las demás opciones se puden ejecutar desde cualquier aplicación de LibreOffice, esta opción solo se puede ejecutar desde Base y además es requisito tener iniciada la sesión en la base de datos a la que pertenece el usuario.
+While the other options can be executed from any LibreOffice application, this option can only be executed from Base and it is also required to be logged into the database to which the user belongs.
 
-También esta es la única opción en la que el diálogo no tienen la ventana de conexión.
+This is also the only option in which the dialog does not have a connection window.
 
-Seleccione el menú **Herramientas > EasyMariaDB > Cambiar contraseña propia**, o haga  clic sobre el botón *Cambiar contraseña propia* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
+Select the **Tools > EasyMariaDB > Change Own Password** menu, or click on the *Change Own Password* button on the *EasyMariaDB* toolbar or on the *Extension* tab, if you have configured the *On Tabs* user interface.
 
-Se mostrará la ventana de cambio de contraseña para el usuario actual.
+The password change window for the current user will be displayed.
 
 ![Jekyll](/img/PassPropia1.png)
 
-Rellene los datos del diálogo como sigue:
-- **Contraseña actual**: escriba la contraseña que tiene actualmente el usuario.
-- **Nueva contraseña**: escriba la nueva contraseña.
-- **Repita contraseña**: vuelva a escribir la nueva contraseña.
+Fill in the data in the dialog as follows:
+- **Current password**: type the password that the user currently has.
+- **New password**: type the new password.
+- **Repeat password**: retype the new password.
 
-Una vez rellenados los datos haga clic en *Aceptar*.
+Once the data has been filled in, click on *OK*.
 
-Si todo es correcto se mostrará un mensaje de confirmación.
+If everything is correct a confirmation message will be displayed.
 
 ![Jekyll](/img/PassPropia2.png)
 
-Haga clic en *Aceptar* para cerrar el mensaje.
+Click *OK* to close the message.
 
-Si hay algún error se mostrará un mensaje advirtiendo del error.
+If there is an error, a message warning of the error will be displayed.
 
 ![Jekyll](/img/PassPropia3.png)
 
-Haga clic en *Aceptar* para cerrar el mensaje. Corrija el error para poder continuar.
+Click *OK* to close the message. Correct the error to continue.
 
-El cambio de contraseña no será efectivo hasta que no reinicie LibreOffice. Recomendamos reiniciarlo inmediatamente para evitar posibles errores.
+The password change will not take effect until you restart LibreOffice. We recommend restarting immediately to avoid possible errors.
 
 |[Top ˄](#utilities-provided-by-easymariadb))|
 
