@@ -40,4 +40,4 @@ By using either of these servers together with LibreOffice Base we will get, as 
 
 After [installing the extension](EN_instalarextension.md), a new option, EasyMariaDB, is generated in the Tools menu of all LibreOffice applications except Math. This submenu gives access to the [utilities](EN_utilidades.md) provided by EasyMariaDB
 
-|[< Introduction](EN_index.md#introduction) | [Index](EN_index.md#index) | [Understanding client-server architecture >](EN_clienteservidor.md) |
+|[< Introduction](EN_index.md#introduction) | [Index](EN_index.md#index) | [EasyMariaDB help index](EN_ayuda.md) |[Understanding client-server architecture >](EN_clienteservidor.md) |
