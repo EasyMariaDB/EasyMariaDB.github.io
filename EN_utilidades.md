@@ -11,7 +11,7 @@ title: EasyMariaDB
 - [Create a database](#create-a-database)
 - [Create a user](#create-a-user)
 - [Delete a user](#delete-a-user)
-- [Change a user's password (by an administrator)](#cchange-a-user's-password-(by-an-administrator))
+- [Change a user's password (by an administrator)](#change-a-users-password-by-an-administrator)
 - [Asignar permisos a un usuario](#asignar-permisos-a-un-usuario)
 - [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
 
