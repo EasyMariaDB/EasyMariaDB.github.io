@@ -12,12 +12,12 @@ title: EasyMariaDB
 - [Create a user](#create-a-user)
 - [Delete a user](#delete-a-user)
 - [Change a user's password (by an administrator)](#change-a-users-password-by-an-administrator)
-- [Asignar permisos a un usuario](#asignar-permisos-a-un-usuario)
-- [Cambiar la contraseña propia](#cambiar-la-contrase%C3%B1a-propia)
+- [Assign permissions to a user](#assign-permissions-to-a-user)
+- [Change own password](#change-own-password)
 
-Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el nombre de usuario y la contraseña de un administrador. Vea [Datos de conexión](#datos-de-conexión)
+Para acceder a todas las utilidades, excepto a *Cambiar la contraseña propia*, es necesario que se realice la conexión con el nombre de usuario y la contraseña de un administrador. Vea [Datos de conexión](#connection-data)
 
-### Datos de conexión
+### Connection data
 Al ejecutar cualquiera de las utilidades, excepto *Cambiar la contraseña propia*, se muestra un diálogo con dos pasos. El primer paso, común a todos ellos, es un diálogo en el que se piden los datos para la conexión al servidor MariaDB/MySQL.
 
 ![Jekyll](/img/database1.png)
@@ -124,7 +124,7 @@ Haga clic en *Aceptar* para cerrar el diálogo
 
 [Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
-## Asignar permisos a un usuario
+## Assign permissions to a user
 
 Seleccione el menú **Herramientas > EasyMariaDB > Permisos de usuario**, o haga  clic sobre el botón *Permisos de usuario* de la barra de herramientas *EasyMariaDB* o de la pestaña *Extensión*, si tiene configurada la interfaz de usuario *En pestañas*.
 
@@ -156,7 +156,7 @@ Los permisos que se pueden asignar son los siguientes:
 
 [Subir ˄](#utilidades-proporcionadas-por-easymariadb)|
 
-## Cambiar la contraseña propia
+## Change own password
 
 Mientras que las demás opciones se puden ejecutar desde cualquier aplicación de LibreOffice, esta opción solo se puede ejecutar desde Base y además es requisito tener iniciada la sesión en la base de datos a la que pertenece el usuario.
 
