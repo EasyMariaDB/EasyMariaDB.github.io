@@ -28,7 +28,7 @@ The data to be provided in this dialog are:
 - **User**: the name of a user who has MariaDB or MySQL administrator permissions.
 - **Password**: the password of the previous user.
 
-|[Top](#utilities-provided-by-easymariadb))|
+|[Top ^](#utilities-provided-by-easymariadb)|
 
 ## Create a database
 
@@ -54,7 +54,7 @@ If the chosen name already exists on the server, an error message will be displa
 
 ![Jekyll](/img/database4.png)
 
-|[Top ˄](#utilities-provided-by-easymariadb))|
+|[Top ^](#utilities-provided-by-easymariadb)|
 
 
 ## Create a user
@@ -73,7 +73,7 @@ Fill in the dialog data as follows:
 - **Database**: select the name of the database in which the user will have permissions. If you are creating an administrator user, you do not need to select a database.
 - **Permissions**: select the permissions the user will have on the database selected above. The privileges of each of the different possibilities are explained in [Assign permissions to a user](#assign-permissions-to-a-user).
 
-|[Top ˄](#utilities-provided-by-easymariadb))|
+|[Top ^](#utilities-provided-by-easymariadb)|
 
 ## Delete a user
 
@@ -96,7 +96,7 @@ Click *Yes* in this new dialog to permanently delete the user. A message confirm
 
 Click *OK* to close the dialog.
 
-|[Top ˄](#utilities-provided-by-easymariadb))|
+|[Top ^](#utilities-provided-by-easymariadb)|
 
 ## Change a user's password (by an administrator)
 
@@ -121,7 +121,7 @@ A message will be displayed confirming the password change.
 
 Click on *OK* to close the dialog box
 
-|[Top ˄](#utilities-provided-by-easymariadb))|
+|[Top ^](#utilities-provided-by-easymariadb)|
 
 ## Assign permissions to a user
 
@@ -153,7 +153,7 @@ The permissions that can be assigned are as follows:
 - **Advanced**. The user will have all the permissions in the selected database, in addition to reading and modifying the data he/she will be able to create tables and indexes and perform other more advanced tasks, such as creating functions, triggers, etc.
 - **Administrator**. All permissions on all databases and on the server. These are the same permissions as those of the root user, adding that he can log in from any computer on the network or even from iternet if the network has external access. These permissions should be assigned very carefully and the user who has them must carefully protect his password. If you have no problems logging in as the root user from the local computer, it is best not to assign it.
 
-|[Top ˄](#utilities-provided-by-easymariadb))|
+|[Top ^](#utilities-provided-by-easymariadb)|
 
 ## Change own password
 
@@ -188,8 +188,7 @@ Click *OK* to close the message. Correct the error to continue.
 
 The password change will not take effect until you restart LibreOffice. We recommend restarting immediately to avoid possible errors.
 
-|[Top ˄](#utilities-provided-by-easymariadb))|
-
+|[Top ^](#utilities-provided-by-easymariadb)|
 
 |[[< Create a database and connect to it](EN_crearbd.md#create-a-database-and-connect-to-it) | [Index](EN_index.md#index) | [EasyMariaDB help index](EN_ayuda.md) |
 
