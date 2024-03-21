@@ -28,7 +28,7 @@ The data to be provided in this dialog are:
 - **User**: the name of a user who has MariaDB or MySQL administrator permissions.
 - **Password**: the password of the previous user.
 
-|[Top ˄](#utilities-provided-by-easymariadb))|
+|[Top ˄ ](#utilities-provided-by-easymariadb))|
 
 ## Create a database
 
