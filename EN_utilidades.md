@@ -190,6 +190,6 @@ The password change will not take effect until you restart LibreOffice. We recom
 
 |[Top ^](#utilities-provided-by-easymariadb)|
 
-|[[< Create a database and connect to it](EN_crearbd.md#create-a-database-and-connect-to-it) | [Index](EN_index.md#index) | [EasyMariaDB help index](EN_ayuda.md) |
+|[< Create a database and connect to it](EN_crearbd.md#create-a-database-and-connect-to-it) | [Index](EN_index.md#index) | [EasyMariaDB help index](EN_ayuda.md) |
 
 
