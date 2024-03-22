@@ -10,8 +10,8 @@ Una vez cumplidos los requisitos previos, siga los siguientes pasos
 
 1. Para poder acceder al menú de EasyMariaDB, debe abrir cualquiera de las aplicaciones de LibreOffice, excepto Math. Para poder acceder desde Base, además, debe abrir un archivo .odb de Base, pero este no será el archivo de conexión a la base de datos, sino que crearemos uno más adelante.
 2. Despliegue el menú **Herramientas > EasyMariaDB**
-3. Seleccione _Nueva base de datos_ para crear una [base de datos](#nueva-base-de-datos).
-4. Una vez creada la base de datos, cree al menos un [usuario](#nuevo-usuario) de la base de datos con los necesarios. Para poder crear tablas, es necesario tener al menos permisos _Avanzados_.
+3. Seleccione _Nueva base de datos_ para crear una [base de datos](utilidades.md#nueva-base-de-datos).
+4. Una vez creada la base de datos, cree al menos un [usuario](utilidades.md#nuevo-usuario) de la base de datos con los necesarios. Para poder crear tablas, es necesario tener al menos permisos _Avanzados_.
 5. Conecte con la nueva base de datos del siguiente modo:
   - Seleccione el menú **Archivo > Nuevo > Base de datos**. Aparece el _Asistente de bases de datos_.
 
