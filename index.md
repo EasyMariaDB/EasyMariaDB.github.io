@@ -38,7 +38,7 @@ Ha sido diseñada para utilizarse con un servidor MariaDB o con un servidor MySQ
 
 Al utilizar cualquiera de estos servidores junto con LibreOffice Base obtendremos, como era nuestro objetivo, bases de datos fiables, seguras y multiusuario, y junto con la extensión **EsayMariaDB**, fácil de poner en funcionamiento.
 
-Tras [instalar la extensión](instalarextension.md), se genera una nueva opción, EasyMariaDB, en el menú Herramientas de todas las aplicaciones de LibreOffice, excepto Math. Este submenú da acceso a las [utilidades](utilidades.md) proporcionadas por EasyMariaDB
+Tras [instalar la extensión](instalarextension.md), se genera una nueva opción, EasyMariaDB, en el menú Herramientas de todas las aplicaciones de LibreOffice, excepto Math. Este submenú da acceso a las [utilidades proporcionadas por EasyMariaDB](utilidades.md) 
 
 
 |[< Introducción](index.md#introducción) | [Índice](index.md#índice) | [Ayuda de EasyMariaDB](ayuda.md) | [Entender la arquitectura cliente servidor >](clienteservidor.md) |
