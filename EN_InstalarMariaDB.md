@@ -13,8 +13,7 @@ title: EasyMariaDB
 ## Install MariaDB on Linux
 
 As we cannot cover the installation on all Linux distributions, in this document we will explain how to install MariaDB on Ubuntu and derivative systems. If you have a different Linux distribution, you may have to adapt the commands to your system.
->[!NOTE]
->Para probar las notas
+
 
 To start with the installation of MariaDB open a terminal, and in the terminal run the following command:
 
